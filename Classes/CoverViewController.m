@@ -39,6 +39,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+    self.view.frame = frame;
     CoverPagingScrollView *scrollView = (CoverPagingScrollView *)self.view;
     scrollView.layer.cornerRadius = 5;
     scrollView.layer.masksToBounds = YES;

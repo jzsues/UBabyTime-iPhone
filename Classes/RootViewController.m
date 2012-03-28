@@ -9,14 +9,6 @@
 #import "RootViewController.h"
 #import "UIApplication+Addition.h"
 
-#define CONTENT_VIEW_ORIGIN_X   7.0f
-#define CONTENT_VIEW_ORIGIN_Y   7.0f
-
-#define LABEL_BAR_VIEW_HEIGHT   64.0f
-#define LABEL_BAR_VIEW_DROP_Y 396.0f
-
-#define USER_NOT_OPEN   0
-
 @interface RootViewController()
 @property (nonatomic, retain) LoginViewController *loginViewController;
 - (void)loadLabelBarView;
@@ -64,7 +56,8 @@
     [self.contentViewController.view removeFromSuperview];
     self.contentViewController = [[[StaticContentViewController alloc] init] autorelease];
     [self.contentViewController loadContentByLabelIdentifier:kTodayTips];
-    self.contentViewController.view.frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, self.contentViewController.view.frame.size.width, self.contentViewController.view.frame.size.height);
+    CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+    self.contentViewController.view.frame = frame;
     [self.view insertSubview:self.contentViewController.view belowSubview:self.labelBarViewController.view];
     self.contentViewController.view.userInteractionEnabled = NO;
 }
@@ -73,7 +66,8 @@
     [self.contentViewController.view removeFromSuperview];
     self.contentViewController = [[[StaticContentViewController alloc] init] autorelease];
     [self.contentViewController loadContentByLabelIdentifier:kTodayTips];
-    self.contentViewController.view.frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, self.contentViewController.view.frame.size.width, self.contentViewController.view.frame.size.height);
+    CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+    self.contentViewController.view.frame = frame;
     [self.view insertSubview:self.contentViewController.view belowSubview:self.labelBarViewController.view];
     self.contentViewController.view.userInteractionEnabled = YES;
 }

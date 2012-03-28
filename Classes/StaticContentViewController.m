@@ -39,8 +39,11 @@
     }if ([labelIdentifier isEqualToString:kCheckList]) {
         CMTableViewController *tvc = [[CMTableViewController alloc] init];
         return [tvc autorelease];
+    }if ([labelIdentifier isEqualToString:kQuestionAndAnswer]) {
+        QAViewController *qvc = [[QAViewController alloc] init];
+        return [qvc autorelease];
     }else{
-        ArticleViewController *avc = [[ArticleViewController alloc] initWithNibName:@"ArticleViewController" bundle:nil];
+        ArticleViewController *avc = [[ArticleViewController alloc] init];
         avc.controllerDelegate = self;
         return [avc autorelease];
     }

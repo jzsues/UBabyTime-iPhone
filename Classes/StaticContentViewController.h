@@ -12,6 +12,7 @@
 #import "CoverViewController.h"
 #import "TimeLineViewController.h"
 #import "CMTableViewController.h"
+#import "QAViewController.h"
 @protocol StaticContentViewControllerDelegate;
 
 @interface StaticContentViewController : UIViewController<CoverViewDelegate,ArticleViewControllerDelegate>

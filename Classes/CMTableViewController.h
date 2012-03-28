@@ -19,5 +19,5 @@
     TableScroller *_scroller;
 }
 
-@property (nonatomic,assign)UITableView *tableView;
+@property (nonatomic,retain)UITableView *tableView;
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "CMTableViewController.h"
-#define  SCROLL_IMAGE_TAG 8899
 
 @interface CMTableViewController ()
 
@@ -19,7 +18,7 @@
 {
     self = [super init];
     if (self) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 306.0f, 389.0f) style:UITableViewStylePlain];
+        _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain] autorelease];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"feed-paper-texture.png"]];
@@ -31,18 +30,16 @@
 {
     [super viewDidLoad];
 	
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 306.0f, 389.0f)];
-    [view addSubview:_tableView];    
+    UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
+    [view addSubview:self.tableView];    
     self.view = view;
-    [view release];
-    _scroller = [[TableScroller alloc] initWithDelegate:self];
-    _scroller.tag = SCROLL_IMAGE_TAG;
+    _scroller = [[[TableScroller alloc] initWithDelegate:self] autorelease];
     [self.view addSubview:_scroller];
-    [_scroller release];
 }
 
 - (void)viewDidUnload
 {
+    self.tableView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

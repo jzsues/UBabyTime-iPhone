@@ -15,6 +15,13 @@
 @synthesize commentButton = _commentButton;
 @synthesize otherButton = _otherButton;
 
+-(id)init{
+    if (self=[super initWithNibName:@"ArticleViewController" bundle:nil]) {
+        self.view.frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+    }
+    return self;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad

@@ -64,6 +64,28 @@
 		DF01111C1522AAE700DD843C /* StaticContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF01110E1522AAE700DD843C /* StaticContentViewController.xib */; };
 		DF01111D1522AAE700DD843C /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF01110F1522AAE700DD843C /* TestView.xib */; };
 		DF0111201522ABD600DD843C /* ArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF01111F1522ABD600DD843C /* ArticleView.xib */; };
+		DF01112B1522B8E600DD843C /* QAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0111291522B8E600DD843C /* QAViewController.m */; };
+		DF0111301522C0AA00DD843C /* UIViewSize.h in Headers */ = {isa = PBXBuildFile; fileRef = DF01112E1522BF5C00DD843C /* UIViewSize.h */; };
+		DF01113A1522EBB900DD843C /* QATableViewCellFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0111381522EBB900DD843C /* QATableViewCellFactory.h */; };
+		DF01113B1522EBB900DD843C /* QATableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0111391522EBB900DD843C /* QATableViewCellFactory.m */; };
+		DF0111401522F1AB00DD843C /* feed-feedback-emotion-heart-overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01113C1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay.png */; };
+		DF0111411522F1AB00DD843C /* feed-feedback-emotion-heart-overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01113D1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay@2x.png */; };
+		DF0111421522F1AB00DD843C /* feed-feedback-emotion-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01113E1522F1AB00DD843C /* feed-feedback-emotion-heart.png */; };
+		DF0111431522F1AB00DD843C /* feed-feedback-emotion-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01113F1522F1AB00DD843C /* feed-feedback-emotion-heart@2x.png */; };
+		DF0111461522F68900DD843C /* feed-feedback-emotion-laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111441522F68900DD843C /* feed-feedback-emotion-laugh.png */; };
+		DF0111471522F68900DD843C /* feed-feedback-emotion-laugh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111451522F68900DD843C /* feed-feedback-emotion-laugh@2x.png */; };
+		DF01114A1522F6BE00DD843C /* feed-feedback-emotion-sad.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111481522F6BD00DD843C /* feed-feedback-emotion-sad.png */; };
+		DF01114B1522F6BE00DD843C /* feed-feedback-emotion-sad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111491522F6BE00DD843C /* feed-feedback-emotion-sad@2x.png */; };
+		DF0111541522F9CA00DD843C /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01114C1522F9C900DD843C /* blackArrow.png */; };
+		DF0111551522F9CA00DD843C /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01114D1522F9C900DD843C /* blackArrow@2x.png */; };
+		DF0111561522F9CA00DD843C /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01114E1522F9C900DD843C /* blueArrow.png */; };
+		DF0111571522F9CA00DD843C /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF01114F1522F9C900DD843C /* blueArrow@2x.png */; };
+		DF0111581522F9CA00DD843C /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111501522F9C900DD843C /* grayArrow.png */; };
+		DF0111591522F9CA00DD843C /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111511522F9C900DD843C /* grayArrow@2x.png */; };
+		DF01115A1522F9CA00DD843C /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111521522F9CA00DD843C /* whiteArrow.png */; };
+		DF01115B1522F9CA00DD843C /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0111531522F9CA00DD843C /* whiteArrow@2x.png */; };
+		DF01115F1522FA5E00DD843C /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF01115D1522FA5E00DD843C /* EGORefreshTableHeaderView.h */; };
+		DF0111601522FA5E00DD843C /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01115E1522FA5E00DD843C /* EGORefreshTableHeaderView.m */; };
 		DF15267A1516E6D200EE97D2 /* NIPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1526741516E6D200EE97D2 /* NIPageView.m */; };
 		DF15267B1516E6D200EE97D2 /* NIPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1526761516E6D200EE97D2 /* NIPagingScrollView.m */; };
 		DF15461F15181CA20069AB2F /* pageControlStateHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DF15461D15181CA20069AB2F /* pageControlStateHighlighted.png */; };
@@ -313,6 +335,29 @@
 		DF01110E1522AAE700DD843C /* StaticContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaticContentViewController.xib; sourceTree = "<group>"; };
 		DF01110F1522AAE700DD843C /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		DF01111F1522ABD600DD843C /* ArticleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleView.xib; sourceTree = "<group>"; };
+		DF0111281522B8E600DD843C /* QAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAViewController.h; sourceTree = "<group>"; };
+		DF0111291522B8E600DD843C /* QAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAViewController.m; sourceTree = "<group>"; };
+		DF01112E1522BF5C00DD843C /* UIViewSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewSize.h; sourceTree = "<group>"; };
+		DF0111381522EBB900DD843C /* QATableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QATableViewCellFactory.h; sourceTree = "<group>"; };
+		DF0111391522EBB900DD843C /* QATableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QATableViewCellFactory.m; sourceTree = "<group>"; };
+		DF01113C1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-heart-overlay.png"; sourceTree = "<group>"; };
+		DF01113D1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-heart-overlay@2x.png"; sourceTree = "<group>"; };
+		DF01113E1522F1AB00DD843C /* feed-feedback-emotion-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-heart.png"; sourceTree = "<group>"; };
+		DF01113F1522F1AB00DD843C /* feed-feedback-emotion-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-heart@2x.png"; sourceTree = "<group>"; };
+		DF0111441522F68900DD843C /* feed-feedback-emotion-laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-laugh.png"; sourceTree = "<group>"; };
+		DF0111451522F68900DD843C /* feed-feedback-emotion-laugh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-laugh@2x.png"; sourceTree = "<group>"; };
+		DF0111481522F6BD00DD843C /* feed-feedback-emotion-sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-sad.png"; sourceTree = "<group>"; };
+		DF0111491522F6BE00DD843C /* feed-feedback-emotion-sad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-feedback-emotion-sad@2x.png"; sourceTree = "<group>"; };
+		DF01114C1522F9C900DD843C /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		DF01114D1522F9C900DD843C /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		DF01114E1522F9C900DD843C /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		DF01114F1522F9C900DD843C /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		DF0111501522F9C900DD843C /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		DF0111511522F9C900DD843C /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		DF0111521522F9CA00DD843C /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		DF0111531522F9CA00DD843C /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		DF01115D1522FA5E00DD843C /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		DF01115E1522FA5E00DD843C /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		DF1526711516E6D200EE97D2 /* NimbusPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NimbusPagingScrollView.h; path = ../nimbus/src/pagingscrollview/src/NimbusPagingScrollView.h; sourceTree = "<group>"; };
 		DF1526721516E6D200EE97D2 /* NimbusPagingScrollView+Namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NimbusPagingScrollView+Namespace.h"; path = "../nimbus/src/pagingscrollview/src/NimbusPagingScrollView+Namespace.h"; sourceTree = "<group>"; };
 		DF1526731516E6D200EE97D2 /* NIPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIPageView.h; path = ../nimbus/src/pagingscrollview/src/NIPageView.h; sourceTree = "<group>"; };
@@ -523,6 +568,9 @@
 		DF0110801522AAD100DD843C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF01115C1522FA4C00DD843C /* EGOTable */,
+				DF01112D1522BEFD00DD843C /* Constant */,
+				DF0111271522B6E000DD843C /* QA */,
 				DF0111261522AD7B00DD843C /* Home */,
 				DF0111251522AD2C00DD843C /* Cover */,
 				DF0111241522AD0E00DD843C /* Timeline */,
@@ -689,6 +737,34 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
+		DF0111271522B6E000DD843C /* QA */ = {
+			isa = PBXGroup;
+			children = (
+				DF0111281522B8E600DD843C /* QAViewController.h */,
+				DF0111291522B8E600DD843C /* QAViewController.m */,
+				DF0111381522EBB900DD843C /* QATableViewCellFactory.h */,
+				DF0111391522EBB900DD843C /* QATableViewCellFactory.m */,
+			);
+			name = QA;
+			sourceTree = "<group>";
+		};
+		DF01112D1522BEFD00DD843C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DF01112E1522BF5C00DD843C /* UIViewSize.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		DF01115C1522FA4C00DD843C /* EGOTable */ = {
+			isa = PBXGroup;
+			children = (
+				DF01115D1522FA5E00DD843C /* EGORefreshTableHeaderView.h */,
+				DF01115E1522FA5E00DD843C /* EGORefreshTableHeaderView.m */,
+			);
+			name = EGOTable;
+			sourceTree = "<group>";
+		};
 		DF15266F1516E69C00EE97D2 /* PagingScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -849,6 +925,22 @@
 		DFDD77691516204C00F62582 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DF01114C1522F9C900DD843C /* blackArrow.png */,
+				DF01114D1522F9C900DD843C /* blackArrow@2x.png */,
+				DF01114E1522F9C900DD843C /* blueArrow.png */,
+				DF01114F1522F9C900DD843C /* blueArrow@2x.png */,
+				DF0111501522F9C900DD843C /* grayArrow.png */,
+				DF0111511522F9C900DD843C /* grayArrow@2x.png */,
+				DF0111521522F9CA00DD843C /* whiteArrow.png */,
+				DF0111531522F9CA00DD843C /* whiteArrow@2x.png */,
+				DF0111481522F6BD00DD843C /* feed-feedback-emotion-sad.png */,
+				DF0111491522F6BE00DD843C /* feed-feedback-emotion-sad@2x.png */,
+				DF0111441522F68900DD843C /* feed-feedback-emotion-laugh.png */,
+				DF0111451522F68900DD843C /* feed-feedback-emotion-laugh@2x.png */,
+				DF01113C1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay.png */,
+				DF01113D1522F1AB00DD843C /* feed-feedback-emotion-heart-overlay@2x.png */,
+				DF01113E1522F1AB00DD843C /* feed-feedback-emotion-heart.png */,
+				DF01113F1522F1AB00DD843C /* feed-feedback-emotion-heart@2x.png */,
 				DF7F42AF15219F950068F10E /* activity-chevron-highlighted.png */,
 				DF7F42B015219F970068F10E /* activity-chevron-highlighted@2x.png */,
 				DF7F42B115219F980068F10E /* activity-chevron.png */,
@@ -967,11 +1059,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DF01112F1522C09700DD843C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0111301522C0AA00DD843C /* UIViewSize.h in Headers */,
+				DF01113A1522EBB900DD843C /* QATableViewCellFactory.h in Headers */,
+				DF01115F1522FA5E00DD843C /* EGORefreshTableHeaderView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		DF189E801515C8D10046FCEE /* UBabyTime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF189E9E1515C8D10046FCEE /* Build configuration list for PBXNativeTarget "UBabyTime" */;
 			buildPhases = (
+				DF01112F1522C09700DD843C /* Headers */,
 				DF189E7D1515C8D10046FCEE /* Sources */,
 				DF189E7E1515C8D10046FCEE /* Frameworks */,
 				DF189E7F1515C8D10046FCEE /* Resources */,
@@ -1145,6 +1251,22 @@
 				DF01111C1522AAE700DD843C /* StaticContentViewController.xib in Resources */,
 				DF01111D1522AAE700DD843C /* TestView.xib in Resources */,
 				DF0111201522ABD600DD843C /* ArticleView.xib in Resources */,
+				DF0111401522F1AB00DD843C /* feed-feedback-emotion-heart-overlay.png in Resources */,
+				DF0111411522F1AB00DD843C /* feed-feedback-emotion-heart-overlay@2x.png in Resources */,
+				DF0111421522F1AB00DD843C /* feed-feedback-emotion-heart.png in Resources */,
+				DF0111431522F1AB00DD843C /* feed-feedback-emotion-heart@2x.png in Resources */,
+				DF0111461522F68900DD843C /* feed-feedback-emotion-laugh.png in Resources */,
+				DF0111471522F68900DD843C /* feed-feedback-emotion-laugh@2x.png in Resources */,
+				DF01114A1522F6BE00DD843C /* feed-feedback-emotion-sad.png in Resources */,
+				DF01114B1522F6BE00DD843C /* feed-feedback-emotion-sad@2x.png in Resources */,
+				DF0111541522F9CA00DD843C /* blackArrow.png in Resources */,
+				DF0111551522F9CA00DD843C /* blackArrow@2x.png in Resources */,
+				DF0111561522F9CA00DD843C /* blueArrow.png in Resources */,
+				DF0111571522F9CA00DD843C /* blueArrow@2x.png in Resources */,
+				DF0111581522F9CA00DD843C /* grayArrow.png in Resources */,
+				DF0111591522F9CA00DD843C /* grayArrow@2x.png in Resources */,
+				DF01115A1522F9CA00DD843C /* whiteArrow.png in Resources */,
+				DF01115B1522F9CA00DD843C /* whiteArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,6 +1363,9 @@
 				DF0110FE1522AAD100DD843C /* UIImageView+Addition.m in Sources */,
 				DF0110FF1522AAD100DD843C /* UITableView+Addition.m in Sources */,
 				DF0111001522AAD100DD843C /* UIView+AUISelectiveBorder.m in Sources */,
+				DF01112B1522B8E600DD843C /* QAViewController.m in Sources */,
+				DF01113B1522EBB900DD843C /* QATableViewCellFactory.m in Sources */,
+				DF0111601522FA5E00DD843C /* EGORefreshTableHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1314,7 +1439,7 @@
 				INFOPLIST_FILE = "UBabyTime/UBabyTime-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos5.1;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1331,7 +1456,7 @@
 				INFOPLIST_FILE = "UBabyTime/UBabyTime-Info.plist";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos5.1;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

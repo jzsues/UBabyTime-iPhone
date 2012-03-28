@@ -32,7 +32,7 @@
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"CoverView" owner:nil options:nil];
     CoverView *view = [views lastObject];
     view.coverViewDelegate = _coverViewDelegate;
-    return  view;
+    return view;
 }
 
 

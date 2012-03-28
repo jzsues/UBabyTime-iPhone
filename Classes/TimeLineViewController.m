@@ -20,7 +20,7 @@
         _timeScroller = [[TimeScroller alloc] initWithDelegate:self];
         
         
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 306.0f, 389.0f) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)  style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
     }
@@ -33,7 +33,7 @@
 {
     
     [super viewDidLoad];
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 306.0f, 389.0f)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) ];
     [view addSubview:_tableView];    
     self.view = view;
     [view release];
