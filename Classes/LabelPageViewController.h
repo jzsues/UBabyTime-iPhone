@@ -11,10 +11,8 @@
 
 @protocol LabelPageViewControllerDelegate;
 @interface LabelPageViewController : UIViewController<LabelViewControllerDelegate> {
-    NSMutableArray *_labelViews;
     NSUInteger _page;
     id<LabelPageViewControllerDelegate> _delegate;
-    NSMutableArray *_labelInfoSubArray;
     
     CGRect _reservedFrame;
 }

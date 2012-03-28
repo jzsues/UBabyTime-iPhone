@@ -31,6 +31,7 @@
 - (UIView<NIPagingScrollViewPage> *)pagingScrollView:(NIPagingScrollView *)pagingScrollView pageViewForIndex:(NSInteger)pageIndex{
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"CoverView" owner:nil options:nil];
     CoverView *view = [views lastObject];
+    view.titleLabel.text = [NSString stringWithFormat:@"%@-%d",view.titleLabel.text,pageIndex];
     view.coverViewDelegate = _coverViewDelegate;
     return view;
 }

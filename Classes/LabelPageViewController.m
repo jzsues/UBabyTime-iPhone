@@ -34,7 +34,7 @@
 - (id)initWithInfoSubArray:(NSMutableArray *)array pageIndex:(NSUInteger)page{
     self = [self init];
     if(self) {
-        self.labelInfoSubArray = [array retain];
+        self.labelInfoSubArray = array;
         self.page = page;
     }
     return self;
@@ -43,7 +43,6 @@
 - (void)dealloc {
     [_labelViews release];
     [_labelInfoSubArray release];
-    self.delegate = nil;
     [super dealloc];
 }
 

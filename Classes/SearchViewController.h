@@ -1,5 +1,5 @@
 //
-//  QAViewControllerViewController.h
+//  SearchViewController.h
 //  UBabyTime
 //
 //  Created by Zhimin Jiang on 12-3-28.
@@ -7,23 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QATableViewCellFactory.h"
 #import "EGORefreshTableHeaderView.h"
-#import "QADetailViewController.h"
-@interface QAViewController : UIViewController<UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource,EGORefreshTableHeaderDelegate>
+
+@interface SearchViewController : UIViewController<UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource,EGORefreshTableHeaderDelegate>
 {
-    
-	EGORefreshTableHeaderView *_refreshHeaderView;
+    EGORefreshTableHeaderView *_refreshHeaderView;
 	
 	//  Reloading var should really be your tableviews datasource
 	//  Putting it here for demo purposes 
 	BOOL _reloading;
 }
 @property (nonatomic,retain)UITableView *tableView;
-
-
-- (void)reloadTableViewDataSource;
-- (void)doneLoadingTableViewData;
-
 @end
-

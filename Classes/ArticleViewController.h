@@ -19,7 +19,6 @@
 {
     
 }
-@property (nonatomic,assign) id<ArticleViewControllerDelegate> controllerDelegate;
 
 @property (nonatomic,retain) IBOutlet UIButton *backButton;
 @property (nonatomic,retain) IBOutlet UIButton *favourButton;

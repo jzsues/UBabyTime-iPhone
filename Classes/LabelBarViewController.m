@@ -58,7 +58,6 @@
     [_pageIndexStack release];
     [_popPageManuallyCompletion release];
     [_loginButton release];
-    _delegate = nil;
     [super dealloc];
 }
 #pragma mark - View lifecycle
@@ -75,12 +74,11 @@
     frame.origin.x = self.scrollView.frame.size.width * index;
     frame.origin.y = 0;
     frame.size = self.scrollView.frame.size;
-    LabelPageViewController *pageView = [[LabelPageViewController alloc] initWithInfoSubArray:array pageIndex:index];
+    LabelPageViewController *pageView = [[[LabelPageViewController alloc] initWithInfoSubArray:array pageIndex:index] autorelease];
     pageView.view.frame = frame;
     [self.scrollView addSubview:pageView.view];
     [self.labelPages addObject:pageView];
     pageView.delegate = self;
-    [pageView release];
 }
 
 - (void)createLabelPageAtIndex:(NSInteger)index {

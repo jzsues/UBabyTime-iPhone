@@ -1,18 +1,18 @@
 //
-//  QAViewControllerViewController.m
+//  SearchViewController.m
 //  UBabyTime
 //
 //  Created by Zhimin Jiang on 12-3-28.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "QAViewController.h"
+#import "SearchViewController.h"
 
-@interface QAViewController ()
+@interface SearchViewController ()
 
 @end
 
-@implementation QAViewController
+@implementation SearchViewController
 @synthesize tableView = _tableView;
 
 - (void)dealloc
@@ -20,10 +20,9 @@
     [_refreshHeaderView release];
     [super dealloc];
 }
--(id)init{
+- (id)init{
     self = [super init];
     if (self) {
-        
         _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain] autorelease];
         _tableView.delegate = self;
         _tableView.dataSource = self;
@@ -35,10 +34,11 @@
     }
     return self;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
+	UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
     [view addSubview:self.tableView];    
     self.view = view;
 }
@@ -46,16 +46,13 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-    self.tableView = nil;
+    [_tableView release];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -76,7 +73,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if(!cell){
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle  reuseIdentifier:CellIdentifier] autorelease]; 
-        [QATableViewCellFactory populateQATableViewCell:cell];
     }
     // Configure the cell...
     cell.textLabel.text=@"test";
@@ -89,8 +85,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    QADetailViewController *qdvc = [[[QADetailViewController alloc] init] autorelease];
-    [self.navigationController pushViewController:qdvc animated:YES];
+    
 }
 
 #pragma mark -
@@ -149,6 +144,5 @@
 	return [NSDate date]; // should return date data source was last changed
 	
 }
-
 
 @end

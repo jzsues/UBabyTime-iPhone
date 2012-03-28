@@ -81,7 +81,7 @@
     
     
     CGRect proposalViewFrame = CGRectMake(SPREAD_LINE_OFFSET_X+10, tipsViewFrame.size.height-10,TIPS_BUBBLE_WIDTH, cellHeight/3);
-    UIView * proposalView = [[UIView alloc] initWithFrame:proposalViewFrame];
+    UIView * proposalView = [[[UIView alloc] initWithFrame:proposalViewFrame] autorelease];
     proposalView.backgroundColor = [UIColor clearColor];
     
     

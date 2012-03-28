@@ -13,6 +13,10 @@
 #import "CoverPagingScrollView.h"
 #import "ArticleViewController.h"
 
-@interface CoverViewController : UIViewController<NIPagingScrollViewDelegate>
--(id)initWithCoverViewDelegate:(id<CoverViewDelegate>) coverViewDelegate;
+@interface CoverViewController : UIViewController<NIPagingScrollViewDelegate,CoverViewDelegate>
+{
+    
+}
+@property (nonatomic,assign)id<CoverViewDelegate> coverViewDelegate;
+@property (nonatomic,retain)CoverPagingScrollView * coverPagingScrollView;
 @end

@@ -42,6 +42,11 @@
 #pragma mark -
 #pragma mark Initialization
 
+- (void)dealloc
+{
+    [super dealloc];
+}
+
 -(id) init
 {
     self = [super init];
@@ -95,7 +100,7 @@
 {
     // Lazily create the border layer only if setting the selective borders property
     if (!borderLayer) {
-        borderLayer = [[CAShapeLayer alloc] init];
+        borderLayer = [[[CAShapeLayer alloc] init] autorelease];
         [self addSublayer:borderLayer];
     }
     
@@ -131,7 +136,7 @@
     if (!borderLayer)
         return;
     
-    UIBezierPath *path = [[UIBezierPath alloc] init];
+    UIBezierPath *path = [[[UIBezierPath alloc] init] autorelease];
     if (selectiveBorderFlag & AUISelectiveBordersFlagLeft) { // left border
         CGPoint startPoint = CGPointMake(0-selectiveBordersWidth/2, 0);
         CGPoint endPoint = CGPointMake(0-selectiveBordersWidth/2, CGRectGetMaxY(self.bounds));

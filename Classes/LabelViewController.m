@@ -67,7 +67,6 @@
     [_titleLabel release];
     [_photoImageView release];
     [_bgImageView release];
-    _delegate = nil;
     [super dealloc];
 }
 

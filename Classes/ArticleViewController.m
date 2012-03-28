@@ -9,7 +9,6 @@
 #import "ArticleViewController.h"
 
 @implementation ArticleViewController
-@synthesize controllerDelegate = _controllerDelegate;
 @synthesize backButton = _backButton;
 @synthesize favourButton = _favourButton;
 @synthesize commentButton = _commentButton;
@@ -46,12 +45,16 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.favourButton = nil;
+    self.commentButton = nil;
+    self.otherButton = nil;
+    self.backButton = nil;
 }
 
 #pragma mark - IBAction
 
 -(IBAction)backButtonClick:(id)sender{
-    [_controllerDelegate backButtonClick:sender];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

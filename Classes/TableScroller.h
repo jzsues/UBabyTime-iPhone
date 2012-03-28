@@ -16,7 +16,7 @@
 
 @interface TableScroller : UIImageView
 {
-    UITableView *_tableView;
+    //UITableView *_tableView;
     //UIImageView *_backgroundView;
     UILabel *_tipsLabel;
 }

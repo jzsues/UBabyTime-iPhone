@@ -9,15 +9,22 @@
 #import "CoverViewController.h"
 
 @implementation CoverViewController
-
--(id)initWithCoverViewDelegate:(id<CoverViewDelegate>) coverViewDelegate{
+@synthesize coverViewDelegate = _coverViewDelegate;
+@synthesize coverPagingScrollView = _coverPagingScrollView;
+- (void)dealloc
+{
+    [_coverPagingScrollView release];
+    [super dealloc];
+}
+-(id)init{
     if([self initWithNibName:@"CoverViewController" bundle:nil]){
+        CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+        _coverPagingScrollView = [[CoverPagingScrollView alloc] initWithFrame:frame];
         CoverPagingScrollDataSource *dataSource =[[CoverPagingScrollDataSource alloc] init];
-        dataSource.coverViewDelegate = coverViewDelegate;
-        CoverPagingScrollView *scrollView = (CoverPagingScrollView *)self.view;
-        scrollView.dataSource = dataSource;
-        scrollView.delegate = self;
-        [scrollView reloadData];
+        dataSource.coverViewDelegate = self;
+        _coverPagingScrollView.dataSource = dataSource;
+        _coverPagingScrollView.delegate = self;
+        [_coverPagingScrollView reloadData];
     }
     return self;
 }
@@ -31,7 +38,13 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+#pragma mark - CoverViewDelegate
 
+-(void)proposalDetailButtonClick:(id)sender;{
+    //self.navigationController pushViewController:<#(UIViewController *)#> animated:<#(BOOL)#>
+    ArticleViewController *avc = [[[ArticleViewController alloc] init] autorelease];
+    [self.navigationController pushViewController:avc animated:YES];
+}
 
 
 #pragma mark - View lifecycle
@@ -39,21 +52,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
-    self.view.frame = frame;
-    CoverPagingScrollView *scrollView = (CoverPagingScrollView *)self.view;
-    scrollView.layer.cornerRadius = 5;
-    scrollView.layer.masksToBounds = YES;
-    scrollView.layer.shadowColor = [[UIColor colorWithRed:0.52 green:0.09 blue:0.07 alpha:0.2] CGColor];
-    scrollView.layer.shadowRadius = 3;
-    scrollView.layer.borderWidth = 1;
-    scrollView.layer.borderColor = [[UIColor colorWithRed:0.42 green:0.09 blue:0.07 alpha:0.12] CGColor];
+    _coverPagingScrollView.layer.cornerRadius = 5;
+    _coverPagingScrollView.layer.masksToBounds = YES;
+    _coverPagingScrollView.layer.shadowColor = [[UIColor colorWithRed:0.52 green:0.09 blue:0.07 alpha:0.2] CGColor];
+    _coverPagingScrollView.layer.shadowRadius = 3;
+    _coverPagingScrollView.layer.borderWidth = 1;
+    _coverPagingScrollView.layer.borderColor = [[UIColor colorWithRed:0.42 green:0.09 blue:0.07 alpha:0.12] CGColor];
+    [self.view addSubview:_coverPagingScrollView];
 
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.coverPagingScrollView = nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -79,9 +91,7 @@
  * pagingScrollView.centerPageIndex will reflect the changed page index.
  */
 - (void)pagingScrollViewDidChangePages:(NIPagingScrollView *)pagingScrollView{
-    NSLog(@"pagingScrollViewDidChangePages");
     [pagingScrollView centerPageIndex];
-
 }
 
 @end

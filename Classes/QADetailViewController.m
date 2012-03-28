@@ -1,18 +1,18 @@
 //
-//  CellViewController.m
+//  QADetailViewController.m
 //  UBabyTime
 //
-//  Created by Zhimin Jiang on 12-3-26.
+//  Created by Zhimin Jiang on 12-3-28.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "CellViewController.h"
+#import "QADetailViewController.h"
 
-@interface CellViewController ()
+@interface QADetailViewController ()
 
 @end
 
-@implementation CellViewController
+@implementation QADetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload

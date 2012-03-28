@@ -10,25 +10,25 @@
 #import <QuartzCore/QuartzCore.h>
 #import "LabelConverter.h"
 #import "CoverViewController.h"
-#import "TimeLineViewController.h"
 #import "CMTableViewController.h"
 #import "QAViewController.h"
+#import "SearchViewController.h"
+#import "QADetailViewController.h"
 @protocol StaticContentViewControllerDelegate;
 
-@interface StaticContentViewController : UIViewController<CoverViewDelegate,ArticleViewControllerDelegate>
+@interface StaticContentViewController : UIViewController
 {
     
 }
 
 @property (nonatomic, assign) id<StaticContentViewControllerDelegate> delegate;
 @property (nonatomic, retain) UIViewController *currentController;
-@property (nonatomic,assign)  NSString *labelIdentifier;
+@property (nonatomic,copy)  NSString *labelIdentifier;
 
 -(void)loadContentByLabelIdentifier:(NSString*)labelIdentifier;
 -(void)loadContentByLabelIdentifier:(NSString*)labelIdentifier withAnimationOptions:(UIViewAnimationOptions)options;
 
 @end
-
 
 @protocol StaticContentViewControllerDelegate
 

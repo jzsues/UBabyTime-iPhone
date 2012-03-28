@@ -8,23 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DF0110D61522AAD100DD843C /* AppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110821522AAD100DD843C /* AppInfoViewController.m */; };
-		DF0110D71522AAD100DD843C /* ArticlePageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110841522AAD100DD843C /* ArticlePageControl.m */; };
-		DF0110D81522AAD100DD843C /* ArticlePagingScrollDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110861522AAD100DD843C /* ArticlePagingScrollDataSource.m */; };
-		DF0110D91522AAD100DD843C /* ArticlePagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110881522AAD100DD843C /* ArticlePagingScrollView.m */; };
-		DF0110DA1522AAD100DD843C /* ArticlePagingScrollViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01108A1522AAD100DD843C /* ArticlePagingScrollViewPage.m */; };
 		DF0110DB1522AAD100DD843C /* ArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01108C1522AAD100DD843C /* ArticleView.m */; };
 		DF0110DD1522AAD100DD843C /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01108F1522AAD100DD843C /* ArticleViewController.m */; };
 		DF0110DE1522AAD100DD843C /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110911522AAD100DD843C /* AUISelectiveBordersLayer.m */; };
-		DF0110DF1522AAD100DD843C /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110931522AAD100DD843C /* CellViewController.m */; };
-		DF0110E01522AAD100DD843C /* CMIndexBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110951522AAD100DD843C /* CMIndexBar.m */; };
 		DF0110E11522AAD100DD843C /* CMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110971522AAD100DD843C /* CMTableViewController.m */; };
 		DF0110E21522AAD100DD843C /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110991522AAD100DD843C /* ContentViewController.m */; };
 		DF0110E31522AAD100DD843C /* CoverPagingScrollDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01109B1522AAD100DD843C /* CoverPagingScrollDataSource.m */; };
 		DF0110E41522AAD100DD843C /* CoverPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01109D1522AAD100DD843C /* CoverPagingScrollView.m */; };
 		DF0110E51522AAD100DD843C /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01109F1522AAD100DD843C /* CoverView.m */; };
 		DF0110E61522AAD100DD843C /* CoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A11522AAD100DD843C /* CoverViewController.m */; };
-		DF0110E71522AAD100DD843C /* CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A31522AAD100DD843C /* CurrentViewController.m */; };
-		DF0110E81522AAD100DD843C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A51522AAD100DD843C /* HomeViewController.m */; };
 		DF0110E91522AAD100DD843C /* Image+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A71522AAD100DD843C /* Image+Addition.m */; };
 		DF0110EA1522AAD100DD843C /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A91522AAD100DD843C /* Image.m */; };
 		DF0110EB1522AAD100DD843C /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110AB1522AAD100DD843C /* ImageData.m */; };
@@ -39,10 +31,6 @@
 		DF0110F41522AAD100DD843C /* StaticContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110BD1522AAD100DD843C /* StaticContentViewController.m */; };
 		DF0110F51522AAD100DD843C /* TableScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110BF1522AAD100DD843C /* TableScroller.m */; };
 		DF0110F61522AAD100DD843C /* TimeLineProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110C11522AAD100DD843C /* TimeLineProvider.m */; };
-		DF0110F71522AAD100DD843C /* TimeLineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110C31522AAD100DD843C /* TimeLineViewCell.m */; };
-		DF0110F81522AAD100DD843C /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110C51522AAD100DD843C /* TimeLineViewController.m */; };
-		DF0110F91522AAD100DD843C /* TimeScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110C71522AAD100DD843C /* TimeScroller.m */; };
-		DF0110FA1522AAD100DD843C /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110C91522AAD100DD843C /* TodoViewController.m */; };
 		DF0110FB1522AAD100DD843C /* UBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110CB1522AAD100DD843C /* UBTAppDelegate.m */; };
 		DF0110FC1522AAD100DD843C /* UIApplication+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110CD1522AAD100DD843C /* UIApplication+Addition.m */; };
 		DF0110FD1522AAD100DD843C /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110CF1522AAD100DD843C /* UIImage+Addition.m */; };
@@ -54,7 +42,6 @@
 		DF0111121522AAE700DD843C /* CellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111041522AAE700DD843C /* CellViewController.xib */; };
 		DF0111131522AAE700DD843C /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111051522AAE700DD843C /* ContentViewController.xib */; };
 		DF0111141522AAE700DD843C /* CoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111061522AAE700DD843C /* CoverView.xib */; };
-		DF0111151522AAE700DD843C /* CoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111071522AAE700DD843C /* CoverViewController.xib */; };
 		DF0111161522AAE700DD843C /* LabelBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111081522AAE700DD843C /* LabelBarViewController.xib */; };
 		DF0111171522AAE700DD843C /* LabelPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0111091522AAE700DD843C /* LabelPageViewController.xib */; };
 		DF0111181522AAE700DD843C /* LabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF01110A1522AAE700DD843C /* LabelViewController.xib */; };
@@ -90,6 +77,9 @@
 		DF15267B1516E6D200EE97D2 /* NIPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1526761516E6D200EE97D2 /* NIPagingScrollView.m */; };
 		DF15461F15181CA20069AB2F /* pageControlStateHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DF15461D15181CA20069AB2F /* pageControlStateHighlighted.png */; };
 		DF15462015181CA20069AB2F /* pageControlStateNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = DF15461E15181CA20069AB2F /* pageControlStateNormal.png */; };
+		DF183A8415231147008B8D2F /* QADetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF183A8115231146008B8D2F /* QADetailViewController.h */; };
+		DF183A8515231147008B8D2F /* QADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF183A8215231147008B8D2F /* QADetailViewController.m */; };
+		DF183A8615231147008B8D2F /* QADetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF183A8315231147008B8D2F /* QADetailViewController.xib */; };
 		DF189E861515C8D10046FCEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E851515C8D10046FCEE /* UIKit.framework */; };
 		DF189E881515C8D10046FCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E871515C8D10046FCEE /* Foundation.framework */; };
 		DF189E8A1515C8D10046FCEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E891515C8D10046FCEE /* CoreGraphics.framework */; };
@@ -233,29 +223,19 @@
 		DFDE433C1518822E002DAB40 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDE433A1518822E002DAB40 /* Default@2x.png */; };
 		DFDE433E15188D4F002DAB40 /* content_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFDE433D15188D4E002DAB40 /* content_bg@2x.png */; };
 		DFDE4349151892B9002DAB40 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDE4348151892B9002DAB40 /* MessageUI.framework */; };
+		DFEC2122152341C400753CC1 /* SearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEC2120152341C400753CC1 /* SearchViewController.h */; };
+		DFEC2123152341C400753CC1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEC2121152341C400753CC1 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF0110811522AAD100DD843C /* AppInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoViewController.h; sourceTree = "<group>"; };
 		DF0110821522AAD100DD843C /* AppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoViewController.m; sourceTree = "<group>"; };
-		DF0110831522AAD100DD843C /* ArticlePageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePageControl.h; sourceTree = "<group>"; };
-		DF0110841522AAD100DD843C /* ArticlePageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePageControl.m; sourceTree = "<group>"; };
-		DF0110851522AAD100DD843C /* ArticlePagingScrollDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePagingScrollDataSource.h; sourceTree = "<group>"; };
-		DF0110861522AAD100DD843C /* ArticlePagingScrollDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePagingScrollDataSource.m; sourceTree = "<group>"; };
-		DF0110871522AAD100DD843C /* ArticlePagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePagingScrollView.h; sourceTree = "<group>"; };
-		DF0110881522AAD100DD843C /* ArticlePagingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePagingScrollView.m; sourceTree = "<group>"; };
-		DF0110891522AAD100DD843C /* ArticlePagingScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlePagingScrollViewPage.h; sourceTree = "<group>"; };
-		DF01108A1522AAD100DD843C /* ArticlePagingScrollViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlePagingScrollViewPage.m; sourceTree = "<group>"; };
 		DF01108B1522AAD100DD843C /* ArticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleView.h; sourceTree = "<group>"; };
 		DF01108C1522AAD100DD843C /* ArticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleView.m; sourceTree = "<group>"; };
 		DF01108E1522AAD100DD843C /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
 		DF01108F1522AAD100DD843C /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		DF0110901522AAD100DD843C /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
 		DF0110911522AAD100DD843C /* AUISelectiveBordersLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersLayer.m; sourceTree = "<group>"; };
-		DF0110921522AAD100DD843C /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
-		DF0110931522AAD100DD843C /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
-		DF0110941522AAD100DD843C /* CMIndexBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIndexBar.h; sourceTree = "<group>"; };
-		DF0110951522AAD100DD843C /* CMIndexBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMIndexBar.m; sourceTree = "<group>"; };
 		DF0110961522AAD100DD843C /* CMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTableViewController.h; sourceTree = "<group>"; };
 		DF0110971522AAD100DD843C /* CMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTableViewController.m; sourceTree = "<group>"; };
 		DF0110981522AAD100DD843C /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
@@ -268,10 +248,6 @@
 		DF01109F1522AAD100DD843C /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
 		DF0110A01522AAD100DD843C /* CoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverViewController.h; sourceTree = "<group>"; };
 		DF0110A11522AAD100DD843C /* CoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverViewController.m; sourceTree = "<group>"; };
-		DF0110A21522AAD100DD843C /* CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentViewController.h; sourceTree = "<group>"; };
-		DF0110A31522AAD100DD843C /* CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentViewController.m; sourceTree = "<group>"; };
-		DF0110A41522AAD100DD843C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		DF0110A51522AAD100DD843C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DF0110A61522AAD100DD843C /* Image+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+Addition.h"; sourceTree = "<group>"; };
 		DF0110A71522AAD100DD843C /* Image+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+Addition.m"; sourceTree = "<group>"; };
 		DF0110A81522AAD100DD843C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
@@ -300,14 +276,6 @@
 		DF0110BF1522AAD100DD843C /* TableScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableScroller.m; sourceTree = "<group>"; };
 		DF0110C01522AAD100DD843C /* TimeLineProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineProvider.h; sourceTree = "<group>"; };
 		DF0110C11522AAD100DD843C /* TimeLineProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineProvider.m; sourceTree = "<group>"; };
-		DF0110C21522AAD100DD843C /* TimeLineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewCell.h; sourceTree = "<group>"; };
-		DF0110C31522AAD100DD843C /* TimeLineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewCell.m; sourceTree = "<group>"; };
-		DF0110C41522AAD100DD843C /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
-		DF0110C51522AAD100DD843C /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
-		DF0110C61522AAD100DD843C /* TimeScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeScroller.h; sourceTree = "<group>"; };
-		DF0110C71522AAD100DD843C /* TimeScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeScroller.m; sourceTree = "<group>"; };
-		DF0110C81522AAD100DD843C /* TodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
-		DF0110C91522AAD100DD843C /* TodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
 		DF0110CA1522AAD100DD843C /* UBTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBTAppDelegate.h; sourceTree = "<group>"; };
 		DF0110CB1522AAD100DD843C /* UBTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTAppDelegate.m; sourceTree = "<group>"; };
 		DF0110CC1522AAD100DD843C /* UIApplication+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Addition.h"; sourceTree = "<group>"; };
@@ -325,7 +293,6 @@
 		DF0111041522AAE700DD843C /* CellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellViewController.xib; sourceTree = "<group>"; };
 		DF0111051522AAE700DD843C /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		DF0111061522AAE700DD843C /* CoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverView.xib; sourceTree = "<group>"; };
-		DF0111071522AAE700DD843C /* CoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverViewController.xib; sourceTree = "<group>"; };
 		DF0111081522AAE700DD843C /* LabelBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBarViewController.xib; sourceTree = "<group>"; };
 		DF0111091522AAE700DD843C /* LabelPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelPageViewController.xib; sourceTree = "<group>"; };
 		DF01110A1522AAE700DD843C /* LabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelViewController.xib; sourceTree = "<group>"; };
@@ -369,6 +336,9 @@
 		DF1526791516E6D200EE97D2 /* NIPagingScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIPagingScrollViewPage.h; path = ../nimbus/src/pagingscrollview/src/NIPagingScrollViewPage.h; sourceTree = "<group>"; };
 		DF15461D15181CA20069AB2F /* pageControlStateHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pageControlStateHighlighted.png; sourceTree = "<group>"; };
 		DF15461E15181CA20069AB2F /* pageControlStateNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pageControlStateNormal.png; sourceTree = "<group>"; };
+		DF183A8115231146008B8D2F /* QADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QADetailViewController.h; sourceTree = "<group>"; };
+		DF183A8215231147008B8D2F /* QADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QADetailViewController.m; sourceTree = "<group>"; };
+		DF183A8315231147008B8D2F /* QADetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QADetailViewController.xib; sourceTree = "<group>"; };
 		DF189E811515C8D10046FCEE /* UBabyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBabyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF189E851515C8D10046FCEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF189E871515C8D10046FCEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -546,6 +516,8 @@
 		DFDE433A1518822E002DAB40 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DFDE433D15188D4E002DAB40 /* content_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content_bg@2x.png"; sourceTree = "<group>"; };
 		DFDE4348151892B9002DAB40 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DFEC2120152341C400753CC1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		DFEC2121152341C400753CC1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,10 +540,11 @@
 		DF0110801522AAD100DD843C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFEC211E1523418400753CC1 /* Search */,
 				DF01115C1522FA4C00DD843C /* EGOTable */,
 				DF01112D1522BEFD00DD843C /* Constant */,
 				DF0111271522B6E000DD843C /* QA */,
-				DF0111261522AD7B00DD843C /* Home */,
+				DF0111261522AD7B00DD843C /* AppDelegate */,
 				DF0111251522AD2C00DD843C /* Cover */,
 				DF0111241522AD0E00DD843C /* Timeline */,
 				DF0111231522ACE700DD843C /* Article */,
@@ -591,7 +564,6 @@
 				DF0111041522AAE700DD843C /* CellViewController.xib */,
 				DF0111051522AAE700DD843C /* ContentViewController.xib */,
 				DF0111061522AAE700DD843C /* CoverView.xib */,
-				DF0111071522AAE700DD843C /* CoverViewController.xib */,
 				DF0111081522AAE700DD843C /* LabelBarViewController.xib */,
 				DF0111091522AAE700DD843C /* LabelPageViewController.xib */,
 				DF01110A1522AAE700DD843C /* LabelViewController.xib */,
@@ -668,14 +640,6 @@
 		DF0111231522ACE700DD843C /* Article */ = {
 			isa = PBXGroup;
 			children = (
-				DF0110831522AAD100DD843C /* ArticlePageControl.h */,
-				DF0110841522AAD100DD843C /* ArticlePageControl.m */,
-				DF0110851522AAD100DD843C /* ArticlePagingScrollDataSource.h */,
-				DF0110861522AAD100DD843C /* ArticlePagingScrollDataSource.m */,
-				DF0110871522AAD100DD843C /* ArticlePagingScrollView.h */,
-				DF0110881522AAD100DD843C /* ArticlePagingScrollView.m */,
-				DF0110891522AAD100DD843C /* ArticlePagingScrollViewPage.h */,
-				DF01108A1522AAD100DD843C /* ArticlePagingScrollViewPage.m */,
 				DF01108B1522AAD100DD843C /* ArticleView.h */,
 				DF01108C1522AAD100DD843C /* ArticleView.m */,
 				DF01108E1522AAD100DD843C /* ArticleViewController.h */,
@@ -691,16 +655,6 @@
 				DF0110BF1522AAD100DD843C /* TableScroller.m */,
 				DF0110C01522AAD100DD843C /* TimeLineProvider.h */,
 				DF0110C11522AAD100DD843C /* TimeLineProvider.m */,
-				DF0110C21522AAD100DD843C /* TimeLineViewCell.h */,
-				DF0110C31522AAD100DD843C /* TimeLineViewCell.m */,
-				DF0110C41522AAD100DD843C /* TimeLineViewController.h */,
-				DF0110C51522AAD100DD843C /* TimeLineViewController.m */,
-				DF0110C61522AAD100DD843C /* TimeScroller.h */,
-				DF0110C71522AAD100DD843C /* TimeScroller.m */,
-				DF0110921522AAD100DD843C /* CellViewController.h */,
-				DF0110931522AAD100DD843C /* CellViewController.m */,
-				DF0110941522AAD100DD843C /* CMIndexBar.h */,
-				DF0110951522AAD100DD843C /* CMIndexBar.m */,
 				DF0110961522AAD100DD843C /* CMTableViewController.h */,
 				DF0110971522AAD100DD843C /* CMTableViewController.m */,
 			);
@@ -722,19 +676,13 @@
 			name = Cover;
 			sourceTree = "<group>";
 		};
-		DF0111261522AD7B00DD843C /* Home */ = {
+		DF0111261522AD7B00DD843C /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				DF0110A21522AAD100DD843C /* CurrentViewController.h */,
-				DF0110A31522AAD100DD843C /* CurrentViewController.m */,
-				DF0110A41522AAD100DD843C /* HomeViewController.h */,
-				DF0110A51522AAD100DD843C /* HomeViewController.m */,
-				DF0110C81522AAD100DD843C /* TodoViewController.h */,
-				DF0110C91522AAD100DD843C /* TodoViewController.m */,
 				DF0110CA1522AAD100DD843C /* UBTAppDelegate.h */,
 				DF0110CB1522AAD100DD843C /* UBTAppDelegate.m */,
 			);
-			name = Home;
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 		DF0111271522B6E000DD843C /* QA */ = {
@@ -744,6 +692,9 @@
 				DF0111291522B8E600DD843C /* QAViewController.m */,
 				DF0111381522EBB900DD843C /* QATableViewCellFactory.h */,
 				DF0111391522EBB900DD843C /* QATableViewCellFactory.m */,
+				DF183A8115231146008B8D2F /* QADetailViewController.h */,
+				DF183A8215231147008B8D2F /* QADetailViewController.m */,
+				DF183A8315231147008B8D2F /* QADetailViewController.xib */,
 			);
 			name = QA;
 			sourceTree = "<group>";
@@ -1057,6 +1008,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		DFEC211E1523418400753CC1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC2120152341C400753CC1 /* SearchViewController.h */,
+				DFEC2121152341C400753CC1 /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1067,6 +1027,8 @@
 				DF0111301522C0AA00DD843C /* UIViewSize.h in Headers */,
 				DF01113A1522EBB900DD843C /* QATableViewCellFactory.h in Headers */,
 				DF01115F1522FA5E00DD843C /* EGORefreshTableHeaderView.h in Headers */,
+				DF183A8415231147008B8D2F /* QADetailViewController.h in Headers */,
+				DFEC2122152341C400753CC1 /* SearchViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,7 +1203,6 @@
 				DF0111121522AAE700DD843C /* CellViewController.xib in Resources */,
 				DF0111131522AAE700DD843C /* ContentViewController.xib in Resources */,
 				DF0111141522AAE700DD843C /* CoverView.xib in Resources */,
-				DF0111151522AAE700DD843C /* CoverViewController.xib in Resources */,
 				DF0111161522AAE700DD843C /* LabelBarViewController.xib in Resources */,
 				DF0111171522AAE700DD843C /* LabelPageViewController.xib in Resources */,
 				DF0111181522AAE700DD843C /* LabelViewController.xib in Resources */,
@@ -1267,6 +1228,7 @@
 				DF0111591522F9CA00DD843C /* grayArrow@2x.png in Resources */,
 				DF01115A1522F9CA00DD843C /* whiteArrow.png in Resources */,
 				DF01115B1522F9CA00DD843C /* whiteArrow@2x.png in Resources */,
+				DF183A8615231147008B8D2F /* QADetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1322,23 +1284,15 @@
 				DF15267A1516E6D200EE97D2 /* NIPageView.m in Sources */,
 				DF15267B1516E6D200EE97D2 /* NIPagingScrollView.m in Sources */,
 				DF0110D61522AAD100DD843C /* AppInfoViewController.m in Sources */,
-				DF0110D71522AAD100DD843C /* ArticlePageControl.m in Sources */,
-				DF0110D81522AAD100DD843C /* ArticlePagingScrollDataSource.m in Sources */,
-				DF0110D91522AAD100DD843C /* ArticlePagingScrollView.m in Sources */,
-				DF0110DA1522AAD100DD843C /* ArticlePagingScrollViewPage.m in Sources */,
 				DF0110DB1522AAD100DD843C /* ArticleView.m in Sources */,
 				DF0110DD1522AAD100DD843C /* ArticleViewController.m in Sources */,
 				DF0110DE1522AAD100DD843C /* AUISelectiveBordersLayer.m in Sources */,
-				DF0110DF1522AAD100DD843C /* CellViewController.m in Sources */,
-				DF0110E01522AAD100DD843C /* CMIndexBar.m in Sources */,
 				DF0110E11522AAD100DD843C /* CMTableViewController.m in Sources */,
 				DF0110E21522AAD100DD843C /* ContentViewController.m in Sources */,
 				DF0110E31522AAD100DD843C /* CoverPagingScrollDataSource.m in Sources */,
 				DF0110E41522AAD100DD843C /* CoverPagingScrollView.m in Sources */,
 				DF0110E51522AAD100DD843C /* CoverView.m in Sources */,
 				DF0110E61522AAD100DD843C /* CoverViewController.m in Sources */,
-				DF0110E71522AAD100DD843C /* CurrentViewController.m in Sources */,
-				DF0110E81522AAD100DD843C /* HomeViewController.m in Sources */,
 				DF0110E91522AAD100DD843C /* Image+Addition.m in Sources */,
 				DF0110EA1522AAD100DD843C /* Image.m in Sources */,
 				DF0110EB1522AAD100DD843C /* ImageData.m in Sources */,
@@ -1353,10 +1307,6 @@
 				DF0110F41522AAD100DD843C /* StaticContentViewController.m in Sources */,
 				DF0110F51522AAD100DD843C /* TableScroller.m in Sources */,
 				DF0110F61522AAD100DD843C /* TimeLineProvider.m in Sources */,
-				DF0110F71522AAD100DD843C /* TimeLineViewCell.m in Sources */,
-				DF0110F81522AAD100DD843C /* TimeLineViewController.m in Sources */,
-				DF0110F91522AAD100DD843C /* TimeScroller.m in Sources */,
-				DF0110FA1522AAD100DD843C /* TodoViewController.m in Sources */,
 				DF0110FB1522AAD100DD843C /* UBTAppDelegate.m in Sources */,
 				DF0110FC1522AAD100DD843C /* UIApplication+Addition.m in Sources */,
 				DF0110FD1522AAD100DD843C /* UIImage+Addition.m in Sources */,
@@ -1366,6 +1316,8 @@
 				DF01112B1522B8E600DD843C /* QAViewController.m in Sources */,
 				DF01113B1522EBB900DD843C /* QATableViewCellFactory.m in Sources */,
 				DF0111601522FA5E00DD843C /* EGORefreshTableHeaderView.m in Sources */,
+				DF183A8515231147008B8D2F /* QADetailViewController.m in Sources */,
+				DFEC2123152341C400753CC1 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,12 @@
 @implementation TableScroller
 @synthesize delegate = _delegate;
 
+- (void)dealloc
+{
+    [_tipsLabel release];
+    [super dealloc];
+}
+
 -(id)initWithDelegate:(id<TableScrollerDelegate>)delegate{
     self = [super initWithFrame:CGRectMake(205, 0, 80, 32)];
     if(self){

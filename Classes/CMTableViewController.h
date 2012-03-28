@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "TableScroller.h"
-#import "CellViewController.h"
 #import "CoverView.h"
 #import "TimeLineProvider.h"
 
