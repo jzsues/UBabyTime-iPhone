@@ -116,6 +116,9 @@
 		DF526CFB1518207500587510 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF71518207500587510 /* Icon-Small-50.png */; };
 		DF526CFC1518207500587510 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF81518207500587510 /* Icon-Small.png */; };
 		DF526CFD1518207500587510 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF91518207500587510 /* Icon-Small@2x.png */; };
+		DF7543FD152402B2003EBD5F /* SearchTopTenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7543FA152402B2003EBD5F /* SearchTopTenViewController.h */; };
+		DF7543FE152402B2003EBD5F /* SearchTopTenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7543FB152402B2003EBD5F /* SearchTopTenViewController.m */; };
+		DF754404152403F8003EBD5F /* feed-cover-background.png in Resources */ = {isa = PBXBuildFile; fileRef = DF754402152403F8003EBD5F /* feed-cover-background.png */; };
 		DF7F423715216A930068F10E /* feed-paper-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7F423515216A930068F10E /* feed-paper-texture.png */; };
 		DF7F423815216A930068F10E /* feed-paper-texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7F423615216A930068F10E /* feed-paper-texture@2x.png */; };
 		DF7F423C15216AC70068F10E /* feed-run-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7F423A15216AC70068F10E /* feed-run-highlight.png */; };
@@ -407,6 +410,9 @@
 		DF526CF71518207500587510 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		DF526CF81518207500587510 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		DF526CF91518207500587510 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DF7543FA152402B2003EBD5F /* SearchTopTenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTopTenViewController.h; sourceTree = "<group>"; };
+		DF7543FB152402B2003EBD5F /* SearchTopTenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTopTenViewController.m; sourceTree = "<group>"; };
+		DF754402152403F8003EBD5F /* feed-cover-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-cover-background.png"; sourceTree = "<group>"; };
 		DF7F423515216A930068F10E /* feed-paper-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-paper-texture.png"; sourceTree = "<group>"; };
 		DF7F423615216A930068F10E /* feed-paper-texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-paper-texture@2x.png"; sourceTree = "<group>"; };
 		DF7F423A15216AC70068F10E /* feed-run-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-run-highlight.png"; sourceTree = "<group>"; };
@@ -525,11 +531,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF189E8A1515C8D10046FCEE /* CoreGraphics.framework in Frameworks */,
 				DFDE4349151892B9002DAB40 /* MessageUI.framework in Frameworks */,
 				DFDD774B15161FB300F62582 /* QuartzCore.framework in Frameworks */,
 				DF189E861515C8D10046FCEE /* UIKit.framework in Frameworks */,
 				DF189E881515C8D10046FCEE /* Foundation.framework in Frameworks */,
-				DF189E8A1515C8D10046FCEE /* CoreGraphics.framework in Frameworks */,
 				DF189E8C1515C8D10046FCEE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -876,6 +882,7 @@
 		DFDD77691516204C00F62582 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DF754402152403F8003EBD5F /* feed-cover-background.png */,
 				DF01114C1522F9C900DD843C /* blackArrow.png */,
 				DF01114D1522F9C900DD843C /* blackArrow@2x.png */,
 				DF01114E1522F9C900DD843C /* blueArrow.png */,
@@ -1013,6 +1020,8 @@
 			children = (
 				DFEC2120152341C400753CC1 /* SearchViewController.h */,
 				DFEC2121152341C400753CC1 /* SearchViewController.m */,
+				DF7543FA152402B2003EBD5F /* SearchTopTenViewController.h */,
+				DF7543FB152402B2003EBD5F /* SearchTopTenViewController.m */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -1029,6 +1038,7 @@
 				DF01115F1522FA5E00DD843C /* EGORefreshTableHeaderView.h in Headers */,
 				DF183A8415231147008B8D2F /* QADetailViewController.h in Headers */,
 				DFEC2122152341C400753CC1 /* SearchViewController.h in Headers */,
+				DF7543FD152402B2003EBD5F /* SearchTopTenViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1229,6 +1239,7 @@
 				DF01115A1522F9CA00DD843C /* whiteArrow.png in Resources */,
 				DF01115B1522F9CA00DD843C /* whiteArrow@2x.png in Resources */,
 				DF183A8615231147008B8D2F /* QADetailViewController.xib in Resources */,
+				DF754404152403F8003EBD5F /* feed-cover-background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1318,6 +1329,7 @@
 				DF0111601522FA5E00DD843C /* EGORefreshTableHeaderView.m in Sources */,
 				DF183A8515231147008B8D2F /* QADetailViewController.m in Sources */,
 				DFEC2123152341C400753CC1 /* SearchViewController.m in Sources */,
+				DF7543FE152402B2003EBD5F /* SearchTopTenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -69,7 +69,7 @@
         return _QANavigationController;
     }if ([labelIdentifier isEqualToString:kSearchInfo]) {
         if (!_searchNavigationController) {
-            SearchViewController *svc = [[[SearchViewController alloc] init] autorelease];
+            SearchTopTenViewController *svc = [[[SearchTopTenViewController alloc] init] autorelease];
             _searchNavigationController = [[UINavigationController alloc] initWithRootViewController:svc];
             _searchNavigationController.navigationBarHidden = YES;
             _searchNavigationController.view.frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);

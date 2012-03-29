@@ -13,6 +13,7 @@
 #import "CMTableViewController.h"
 #import "QAViewController.h"
 #import "SearchViewController.h"
+#import "SearchTopTenViewController.h"
 #import "QADetailViewController.h"
 @protocol StaticContentViewControllerDelegate;
 
