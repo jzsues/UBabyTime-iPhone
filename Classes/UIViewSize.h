@@ -9,11 +9,11 @@
 #ifndef UBabyTime_UIViewSize_h
 #define UBabyTime_UIViewSize_h
 
-#define CONTENT_VIEW_HEIGHT 398.0f
-#define CONTENT_VIEW_WIDTH 320.0f
+#define CONTENT_VIEW_HEIGHT 389.0f
+#define CONTENT_VIEW_WIDTH 306.0f
 
-#define CONTENT_VIEW_ORIGIN_X   0.0f
-#define CONTENT_VIEW_ORIGIN_Y   0.0f
+#define CONTENT_VIEW_ORIGIN_X   4.0f
+#define CONTENT_VIEW_ORIGIN_Y   4.0f
 #define LABEL_BAR_VIEW_HEIGHT   64.0f
 #define LABEL_BAR_VIEW_DROP_Y 396.0f
 

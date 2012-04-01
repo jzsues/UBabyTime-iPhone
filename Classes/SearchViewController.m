@@ -38,7 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
+	UIView *view = [[UIView alloc] init];
     [view addSubview:self.tableView];    
     self.view = view;
 }

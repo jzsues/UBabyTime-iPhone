@@ -30,7 +30,7 @@
     self = [super init];
     if (self) {
         _topLabels = [[NSMutableArray alloc] init];
-        CGRect frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
+        CGRect frame = CGRectMake(0, 0, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);
         _scrollView = [[UIScrollView alloc] initWithFrame:frame];
         UIImage *scrollViewImg = [UIImage imageNamed:@"feed-paper-texture"];
         _scrollView.backgroundColor = [UIColor colorWithPatternImage:scrollViewImg];
@@ -65,13 +65,15 @@
     }
     return self;
 }
+-(void)loadView{
+    [super loadView];
+    [self.view addSubview:_scrollView];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
-    self.view = view;
-    [self.view addSubview:_scrollView];
+    
     
 }
 

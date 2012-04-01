@@ -25,16 +25,18 @@
     }
     return self;
 }
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	
+-(void)loadView{
+    [super loadView];
     UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
     [view addSubview:self.tableView];    
     self.view = view;
     _scroller = [[[TableScroller alloc] initWithDelegate:self] autorelease];
     [self.view addSubview:_scroller];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload

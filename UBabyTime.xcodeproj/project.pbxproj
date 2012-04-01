@@ -123,7 +123,6 @@
 		DF43118E1528093C0068B688 /* article_special_bg_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4311891528093B0068B688 /* article_special_bg_5.png */; };
 		DF431191152809F10068B688 /* CalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF43118F152809F10068B688 /* CalendarViewController.h */; };
 		DF431192152809F10068B688 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF431190152809F10068B688 /* CalendarViewController.m */; };
-		DF43119415281C9B0068B688 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF43119315281C9B0068B688 /* CalendarViewController.xib */; };
 		DF526CF11518206000587510 /* bkgd_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CED1518205F00587510 /* bkgd_loading.png */; };
 		DF526CF21518206000587510 /* bkgd_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CEE1518205F00587510 /* bkgd_loading@2x.png */; };
 		DF526CF31518206000587510 /* bkgd_login_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CEF1518206000587510 /* bkgd_login_signup.png */; };
@@ -458,7 +457,6 @@
 		DF4311891528093B0068B688 /* article_special_bg_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_5.png; sourceTree = "<group>"; };
 		DF43118F152809F10068B688 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		DF431190152809F10068B688 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
-		DF43119315281C9B0068B688 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		DF526CED1518205F00587510 /* bkgd_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgd_loading.png; sourceTree = "<group>"; };
 		DF526CEE1518205F00587510 /* bkgd_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bkgd_loading@2x.png"; sourceTree = "<group>"; };
 		DF526CEF1518206000587510 /* bkgd_login_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgd_login_signup.png; sourceTree = "<group>"; };
@@ -995,7 +993,6 @@
 				DF64427D1526EF4A00433ED2 /* CalendarView.xib */,
 				DF43118F152809F10068B688 /* CalendarViewController.h */,
 				DF431190152809F10068B688 /* CalendarViewController.m */,
-				DF43119315281C9B0068B688 /* CalendarViewController.xib */,
 			);
 			name = Calendar;
 			sourceTree = "<group>";
@@ -1421,7 +1418,6 @@
 				DF43118C1528093C0068B688 /* article_special_bg_3.png in Resources */,
 				DF43118D1528093C0068B688 /* article_special_bg_4.png in Resources */,
 				DF43118E1528093C0068B688 /* article_special_bg_5.png in Resources */,
-				DF43119415281C9B0068B688 /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

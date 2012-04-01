@@ -24,7 +24,7 @@
     self = [super init];
     if (self) {
         
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"feed-paper-texture.png"]]; 
@@ -35,12 +35,16 @@
     }
     return self;
 }
+-(void)loadView{
+    [super loadView];
+    UIView *view = [[[UIView alloc] init] autorelease];
+    [view addSubview:self.tableView];    
+    self.view = view;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT)] autorelease];
-    [view addSubview:self.tableView];    
-    self.view = view;
 }
 
 - (void)viewDidUnload
