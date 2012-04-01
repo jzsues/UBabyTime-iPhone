@@ -10,8 +10,7 @@
 
 @interface UIImage (Addition)
 + (void)loadImageFromURL:(NSString *)urlString 
-             completion:(void (^)())completion 
-         cacheInContext:(NSManagedObjectContext *)context;
+             completion:(void (^)())completion;
 
 - (UIImage *)convertToGrayscale;
 @end

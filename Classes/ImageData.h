@@ -11,7 +11,7 @@
 
 @class Image;
 
-@interface ImageData : NSManagedObject
+@interface ImageData : NSObject
 
 @property (nonatomic, retain) NSData * data;
 @property (nonatomic, retain) Image *owner;

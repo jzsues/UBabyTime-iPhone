@@ -73,8 +73,7 @@
 
 
 - (void)loadImageFromURL:(NSString *)urlString 
-              completion:(void (^)())completion 
-          cacheInContext:(NSManagedObjectContext *)context
+              completion:(void (^)())completion
 {
 	/*Image *imageObject = [Image imageWithURL:urlString inManagedObjectContext:context];
      if (imageObject) {
@@ -98,8 +97,8 @@
         }
         UIImage *img = [UIImage imageWithData:imageData];
         dispatch_async(dispatch_get_main_queue(), ^{
-            if([Image imageWithURL:urlString inManagedObjectContext:context] == nil) {
-                [Image insertImage:imageData withURL:urlString inManagedObjectContext:context];
+            if([Image imageWithURL:urlString] == nil) {
+                [Image insertImage:imageData withURL:urlString];
                 //NSLog(@"cache image url:%@", urlString);
                 self.image = img;
                 if (completion) {

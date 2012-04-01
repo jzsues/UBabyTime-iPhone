@@ -8,7 +8,7 @@
 
 #import "imageFactory.h"
 
-@implementation imageFactory
+@implementation ImageFactory
 
 
 -(id)init
@@ -19,12 +19,12 @@
 }
 
 
-+(imageFactory*)SharedImageFactory
++(ImageFactory*)SharedImageFactory
 {
-    static imageFactory* factory;
+    static ImageFactory* factory;
     if (!factory)
     {
-        factory=[[imageFactory alloc] init];
+        factory=[[ImageFactory alloc] init];
     }
     return factory;
 }

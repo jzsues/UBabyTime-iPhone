@@ -24,11 +24,11 @@
     self = [super init];
     if (self) {
         
-        _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain] autorelease];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"feed-paper-texture.png"]]; 
-        EGORefreshTableHeaderView *egoView= [[[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - _tableView.bounds.size.height, _tableView.frame.size.width, self.tableView.bounds.size.height)] autorelease];
+        EGORefreshTableHeaderView *egoView= [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - _tableView.bounds.size.height, _tableView.frame.size.width, self.tableView.bounds.size.height)];
 		egoView.delegate = self;
         [_tableView addSubview:egoView];
         _refreshHeaderView = egoView;

@@ -17,10 +17,8 @@
 		DF0110E41522AAD100DD843C /* CoverPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01109D1522AAD100DD843C /* CoverPagingScrollView.m */; };
 		DF0110E51522AAD100DD843C /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF01109F1522AAD100DD843C /* CoverView.m */; };
 		DF0110E61522AAD100DD843C /* CoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A11522AAD100DD843C /* CoverViewController.m */; };
-		DF0110E91522AAD100DD843C /* Image+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A71522AAD100DD843C /* Image+Addition.m */; };
 		DF0110EA1522AAD100DD843C /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110A91522AAD100DD843C /* Image.m */; };
 		DF0110EB1522AAD100DD843C /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110AB1522AAD100DD843C /* ImageData.m */; };
-		DF0110EC1522AAD100DD843C /* imageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110AD1522AAD100DD843C /* imageFactory.m */; };
 		DF0110ED1522AAD100DD843C /* LabelBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110AF1522AAD100DD843C /* LabelBarViewController.m */; };
 		DF0110EE1522AAD100DD843C /* LabelConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110B11522AAD100DD843C /* LabelConverter.m */; };
 		DF0110EF1522AAD100DD843C /* LabelPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0110B31522AAD100DD843C /* LabelPageViewController.m */; };
@@ -83,10 +81,8 @@
 		DF189E861515C8D10046FCEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E851515C8D10046FCEE /* UIKit.framework */; };
 		DF189E881515C8D10046FCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E871515C8D10046FCEE /* Foundation.framework */; };
 		DF189E8A1515C8D10046FCEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E891515C8D10046FCEE /* CoreGraphics.framework */; };
-		DF189E8C1515C8D10046FCEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF189E8B1515C8D10046FCEE /* CoreData.framework */; };
 		DF189E921515C8D10046FCEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF189E901515C8D10046FCEE /* InfoPlist.strings */; };
 		DF189E941515C8D10046FCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189E931515C8D10046FCEE /* main.m */; };
-		DF189E9B1515C8D10046FCEE /* UBabyTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF189E991515C8D10046FCEE /* UBabyTime.xcdatamodeld */; };
 		DF189ED21515C91D0046FCEE /* NICommonMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189EA61515C91D0046FCEE /* NICommonMetrics.m */; };
 		DF189ED31515C91D0046FCEE /* NIDataStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189EA81515C91D0046FCEE /* NIDataStructures.m */; };
 		DF189ED41515C91D0046FCEE /* NIDebuggingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189EAA1515C91D0046FCEE /* NIDebuggingTools.m */; };
@@ -108,6 +104,26 @@
 		DF189EE41515C91D0046FCEE /* NSString+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189ECF1515C91D0046FCEE /* NSString+NimbusCore.m */; };
 		DF189EE51515C91D0046FCEE /* UIView+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189ED11515C91D0046FCEE /* UIView+NimbusCore.m */; };
 		DF189EEA1515C9340046FCEE /* NIWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF189EE91515C9340046FCEE /* NIWebController.m */; };
+		DF431175152807150068B688 /* eventplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DF43116C1528070E0068B688 /* eventplaceholder.png */; };
+		DF431176152807150068B688 /* eventplaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF43116D1528070F0068B688 /* eventplaceholder@2x.png */; };
+		DF431177152807150068B688 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = DF43116E152807100068B688 /* events.png */; };
+		DF431178152807150068B688 /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF43116F152807110068B688 /* events@2x.png */; };
+		DF431179152807150068B688 /* eventsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431170152807120068B688 /* eventsButton.png */; };
+		DF43117A152807150068B688 /* eventsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431171152807130068B688 /* eventsButton@2x.png */; };
+		DF43117B152807150068B688 /* eventsLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431172152807130068B688 /* eventsLarge.png */; };
+		DF43117C152807150068B688 /* eventsLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431173152807140068B688 /* eventsLarge@2x.png */; };
+		DF43117D152807150068B688 /* eventsMedium.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431174152807150068B688 /* eventsMedium.png */; };
+		DF431182152807D30068B688 /* article_title_bgline.png in Resources */ = {isa = PBXBuildFile; fileRef = DF43117F152807CF0068B688 /* article_title_bgline.png */; };
+		DF431183152807D30068B688 /* article_title_line.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431180152807D00068B688 /* article_title_line.png */; };
+		DF431184152807D30068B688 /* article_title_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431181152807D10068B688 /* article_title_line@2x.png */; };
+		DF43118A1528093C0068B688 /* article_special_bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431185152809350068B688 /* article_special_bg_1.png */; };
+		DF43118B1528093C0068B688 /* article_special_bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431186152809360068B688 /* article_special_bg_2.png */; };
+		DF43118C1528093C0068B688 /* article_special_bg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431187152809380068B688 /* article_special_bg_3.png */; };
+		DF43118D1528093C0068B688 /* article_special_bg_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF431188152809390068B688 /* article_special_bg_4.png */; };
+		DF43118E1528093C0068B688 /* article_special_bg_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4311891528093B0068B688 /* article_special_bg_5.png */; };
+		DF431191152809F10068B688 /* CalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF43118F152809F10068B688 /* CalendarViewController.h */; };
+		DF431192152809F10068B688 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF431190152809F10068B688 /* CalendarViewController.m */; };
+		DF43119415281C9B0068B688 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF43119315281C9B0068B688 /* CalendarViewController.xib */; };
 		DF526CF11518206000587510 /* bkgd_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CED1518205F00587510 /* bkgd_loading.png */; };
 		DF526CF21518206000587510 /* bkgd_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CEE1518205F00587510 /* bkgd_loading@2x.png */; };
 		DF526CF31518206000587510 /* bkgd_login_signup.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CEF1518206000587510 /* bkgd_login_signup.png */; };
@@ -116,6 +132,33 @@
 		DF526CFB1518207500587510 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF71518207500587510 /* Icon-Small-50.png */; };
 		DF526CFC1518207500587510 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF81518207500587510 /* Icon-Small.png */; };
 		DF526CFD1518207500587510 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF526CF91518207500587510 /* Icon-Small@2x.png */; };
+		DF6442521526E50C00433ED2 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442481526E50C00433ED2 /* FMDatabase.h */; };
+		DF6442531526E50C00433ED2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442491526E50C00433ED2 /* FMDatabase.m */; };
+		DF6442541526E50C00433ED2 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF64424A1526E50C00433ED2 /* FMDatabaseAdditions.h */; };
+		DF6442551526E50C00433ED2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64424B1526E50C00433ED2 /* FMDatabaseAdditions.m */; };
+		DF6442561526E50C00433ED2 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = DF64424C1526E50C00433ED2 /* FMDatabasePool.h */; };
+		DF6442571526E50C00433ED2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64424D1526E50C00433ED2 /* FMDatabasePool.m */; };
+		DF6442581526E50C00433ED2 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DF64424E1526E50C00433ED2 /* FMDatabaseQueue.h */; };
+		DF6442591526E50C00433ED2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64424F1526E50C00433ED2 /* FMDatabaseQueue.m */; };
+		DF64425A1526E50C00433ED2 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442501526E50C00433ED2 /* FMResultSet.h */; };
+		DF64425B1526E50C00433ED2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442511526E50C00433ED2 /* FMResultSet.m */; };
+		DF64425D1526E7F800433ED2 /* ubabytime.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DF64425C1526E7F800433ED2 /* ubabytime.sqlite */; };
+		DF6442601526E81100433ED2 /* PregnacyDaliyTips.h in Headers */ = {isa = PBXBuildFile; fileRef = DF64425E1526E81100433ED2 /* PregnacyDaliyTips.h */; };
+		DF6442611526E81100433ED2 /* PregnacyDaliyTips.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64425F1526E81100433ED2 /* PregnacyDaliyTips.m */; };
+		DF6442641526E82600433ED2 /* PregnacyWeeklyTips.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442621526E82600433ED2 /* PregnacyWeeklyTips.h */; };
+		DF6442651526E82600433ED2 /* PregnacyWeeklyTips.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442631526E82600433ED2 /* PregnacyWeeklyTips.m */; };
+		DF6442681526E82600433ED2 /* PregnacyPeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442661526E82600433ED2 /* PregnacyPeriod.h */; };
+		DF6442691526E82600433ED2 /* PregnacyPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442671526E82600433ED2 /* PregnacyPeriod.m */; };
+		DF64426C1526E82700433ED2 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = DF64426A1526E82700433ED2 /* User.h */; };
+		DF64426D1526E82700433ED2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64426B1526E82700433ED2 /* User.m */; };
+		DF64426F1526E87500433ED2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF64426E1526E87500433ED2 /* libsqlite3.dylib */; };
+		DF6442721526EA1500433ED2 /* Image+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442701526EA1500433ED2 /* Image+Addition.h */; };
+		DF6442731526EA1500433ED2 /* Image+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442711526EA1500433ED2 /* Image+Addition.m */; };
+		DF6442761526EA7800433ED2 /* ImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442741526EA7800433ED2 /* ImageFactory.h */; };
+		DF6442771526EA7800433ED2 /* ImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6442751526EA7800433ED2 /* ImageFactory.m */; };
+		DF64427B1526EF2900433ED2 /* CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6442791526EF2900433ED2 /* CalendarView.h */; };
+		DF64427C1526EF2900433ED2 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64427A1526EF2900433ED2 /* CalendarView.m */; };
+		DF64427E1526EF4A00433ED2 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF64427D1526EF4A00433ED2 /* CalendarView.xib */; };
 		DF7543FD152402B2003EBD5F /* SearchTopTenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7543FA152402B2003EBD5F /* SearchTopTenViewController.h */; };
 		DF7543FE152402B2003EBD5F /* SearchTopTenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7543FB152402B2003EBD5F /* SearchTopTenViewController.m */; };
 		DF754404152403F8003EBD5F /* feed-cover-background.png in Resources */ = {isa = PBXBuildFile; fileRef = DF754402152403F8003EBD5F /* feed-cover-background.png */; };
@@ -251,14 +294,10 @@
 		DF01109F1522AAD100DD843C /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
 		DF0110A01522AAD100DD843C /* CoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverViewController.h; sourceTree = "<group>"; };
 		DF0110A11522AAD100DD843C /* CoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverViewController.m; sourceTree = "<group>"; };
-		DF0110A61522AAD100DD843C /* Image+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+Addition.h"; sourceTree = "<group>"; };
-		DF0110A71522AAD100DD843C /* Image+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+Addition.m"; sourceTree = "<group>"; };
 		DF0110A81522AAD100DD843C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		DF0110A91522AAD100DD843C /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		DF0110AA1522AAD100DD843C /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
 		DF0110AB1522AAD100DD843C /* ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageData.m; sourceTree = "<group>"; };
-		DF0110AC1522AAD100DD843C /* imageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageFactory.h; sourceTree = "<group>"; };
-		DF0110AD1522AAD100DD843C /* imageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageFactory.m; sourceTree = "<group>"; };
 		DF0110AE1522AAD100DD843C /* LabelBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBarViewController.h; sourceTree = "<group>"; };
 		DF0110AF1522AAD100DD843C /* LabelBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBarViewController.m; sourceTree = "<group>"; };
 		DF0110B01522AAD100DD843C /* LabelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelConverter.h; sourceTree = "<group>"; };
@@ -346,12 +385,10 @@
 		DF189E851515C8D10046FCEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF189E871515C8D10046FCEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF189E891515C8D10046FCEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DF189E8B1515C8D10046FCEE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DF189E8F1515C8D10046FCEE /* UBabyTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UBabyTime-Info.plist"; sourceTree = "<group>"; };
 		DF189E911515C8D10046FCEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF189E931515C8D10046FCEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF189E951515C8D10046FCEE /* UBabyTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UBabyTime-Prefix.pch"; sourceTree = "<group>"; };
-		DF189E9A1515C8D10046FCEE /* UBabyTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UBabyTime.xcdatamodel; sourceTree = "<group>"; };
 		DF189EA41515C91D0046FCEE /* NIBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIBlocks.h; path = ../nimbus/src/core/src/NIBlocks.h; sourceTree = "<group>"; };
 		DF189EA51515C91D0046FCEE /* NICommonMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICommonMetrics.h; path = ../nimbus/src/core/src/NICommonMetrics.h; sourceTree = "<group>"; };
 		DF189EA61515C91D0046FCEE /* NICommonMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICommonMetrics.m; path = ../nimbus/src/core/src/NICommonMetrics.m; sourceTree = "<group>"; };
@@ -402,6 +439,26 @@
 		DF189EE71515C9340046FCEE /* NimbusWebController+Namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NimbusWebController+Namespace.h"; path = "../nimbus/src/webcontroller/src/NimbusWebController+Namespace.h"; sourceTree = "<group>"; };
 		DF189EE81515C9340046FCEE /* NIWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIWebController.h; path = ../nimbus/src/webcontroller/src/NIWebController.h; sourceTree = "<group>"; };
 		DF189EE91515C9340046FCEE /* NIWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIWebController.m; path = ../nimbus/src/webcontroller/src/NIWebController.m; sourceTree = "<group>"; };
+		DF43116C1528070E0068B688 /* eventplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventplaceholder.png; sourceTree = "<group>"; };
+		DF43116D1528070F0068B688 /* eventplaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eventplaceholder@2x.png"; sourceTree = "<group>"; };
+		DF43116E152807100068B688 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		DF43116F152807110068B688 /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
+		DF431170152807120068B688 /* eventsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventsButton.png; sourceTree = "<group>"; };
+		DF431171152807130068B688 /* eventsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eventsButton@2x.png"; sourceTree = "<group>"; };
+		DF431172152807130068B688 /* eventsLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventsLarge.png; sourceTree = "<group>"; };
+		DF431173152807140068B688 /* eventsLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eventsLarge@2x.png"; sourceTree = "<group>"; };
+		DF431174152807150068B688 /* eventsMedium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventsMedium.png; sourceTree = "<group>"; };
+		DF43117F152807CF0068B688 /* article_title_bgline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_title_bgline.png; sourceTree = "<group>"; };
+		DF431180152807D00068B688 /* article_title_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_title_line.png; sourceTree = "<group>"; };
+		DF431181152807D10068B688 /* article_title_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "article_title_line@2x.png"; sourceTree = "<group>"; };
+		DF431185152809350068B688 /* article_special_bg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_1.png; sourceTree = "<group>"; };
+		DF431186152809360068B688 /* article_special_bg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_2.png; sourceTree = "<group>"; };
+		DF431187152809380068B688 /* article_special_bg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_3.png; sourceTree = "<group>"; };
+		DF431188152809390068B688 /* article_special_bg_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_4.png; sourceTree = "<group>"; };
+		DF4311891528093B0068B688 /* article_special_bg_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = article_special_bg_5.png; sourceTree = "<group>"; };
+		DF43118F152809F10068B688 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		DF431190152809F10068B688 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		DF43119315281C9B0068B688 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		DF526CED1518205F00587510 /* bkgd_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgd_loading.png; sourceTree = "<group>"; };
 		DF526CEE1518205F00587510 /* bkgd_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bkgd_loading@2x.png"; sourceTree = "<group>"; };
 		DF526CEF1518206000587510 /* bkgd_login_signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgd_login_signup.png; sourceTree = "<group>"; };
@@ -410,6 +467,33 @@
 		DF526CF71518207500587510 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		DF526CF81518207500587510 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		DF526CF91518207500587510 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DF6442481526E50C00433ED2 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DF6442491526E50C00433ED2 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DF64424A1526E50C00433ED2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DF64424B1526E50C00433ED2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DF64424C1526E50C00433ED2 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DF64424D1526E50C00433ED2 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DF64424E1526E50C00433ED2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DF64424F1526E50C00433ED2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DF6442501526E50C00433ED2 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DF6442511526E50C00433ED2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DF64425C1526E7F800433ED2 /* ubabytime.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ubabytime.sqlite; sourceTree = "<group>"; };
+		DF64425E1526E81100433ED2 /* PregnacyDaliyTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PregnacyDaliyTips.h; sourceTree = "<group>"; };
+		DF64425F1526E81100433ED2 /* PregnacyDaliyTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PregnacyDaliyTips.m; sourceTree = "<group>"; };
+		DF6442621526E82600433ED2 /* PregnacyWeeklyTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PregnacyWeeklyTips.h; path = ../UBabyTime/PregnacyWeeklyTips.h; sourceTree = "<group>"; };
+		DF6442631526E82600433ED2 /* PregnacyWeeklyTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PregnacyWeeklyTips.m; path = ../UBabyTime/PregnacyWeeklyTips.m; sourceTree = "<group>"; };
+		DF6442661526E82600433ED2 /* PregnacyPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PregnacyPeriod.h; path = ../UBabyTime/PregnacyPeriod.h; sourceTree = "<group>"; };
+		DF6442671526E82600433ED2 /* PregnacyPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PregnacyPeriod.m; path = ../UBabyTime/PregnacyPeriod.m; sourceTree = "<group>"; };
+		DF64426A1526E82700433ED2 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../UBabyTime/User.h; sourceTree = "<group>"; };
+		DF64426B1526E82700433ED2 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../UBabyTime/User.m; sourceTree = "<group>"; };
+		DF64426E1526E87500433ED2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DF6442701526EA1500433ED2 /* Image+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+Addition.h"; sourceTree = "<group>"; };
+		DF6442711526EA1500433ED2 /* Image+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+Addition.m"; sourceTree = "<group>"; };
+		DF6442741526EA7800433ED2 /* ImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFactory.h; sourceTree = "<group>"; };
+		DF6442751526EA7800433ED2 /* ImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFactory.m; sourceTree = "<group>"; };
+		DF6442791526EF2900433ED2 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		DF64427A1526EF2900433ED2 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		DF64427D1526EF4A00433ED2 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		DF7543FA152402B2003EBD5F /* SearchTopTenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTopTenViewController.h; sourceTree = "<group>"; };
 		DF7543FB152402B2003EBD5F /* SearchTopTenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTopTenViewController.m; sourceTree = "<group>"; };
 		DF754402152403F8003EBD5F /* feed-cover-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-cover-background.png"; sourceTree = "<group>"; };
@@ -531,12 +615,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF64426F1526E87500433ED2 /* libsqlite3.dylib in Frameworks */,
 				DF189E8A1515C8D10046FCEE /* CoreGraphics.framework in Frameworks */,
 				DFDE4349151892B9002DAB40 /* MessageUI.framework in Frameworks */,
 				DFDD774B15161FB300F62582 /* QuartzCore.framework in Frameworks */,
 				DF189E861515C8D10046FCEE /* UIKit.framework in Frameworks */,
 				DF189E881515C8D10046FCEE /* Foundation.framework in Frameworks */,
-				DF189E8C1515C8D10046FCEE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +630,9 @@
 		DF0110801522AAD100DD843C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF6442781526EEDC00433ED2 /* Calendar */,
+				DF6442431526E4D100433ED2 /* fmdb */,
+				DF6442351526DF1C00433ED2 /* DataModel */,
 				DFEC211E1523418400753CC1 /* Search */,
 				DF01115C1522FA4C00DD843C /* EGOTable */,
 				DF01112D1522BEFD00DD843C /* Constant */,
@@ -595,14 +682,10 @@
 				DF0110CD1522AAD100DD843C /* UIApplication+Addition.m */,
 				DF0110D21522AAD100DD843C /* UITableView+Addition.h */,
 				DF0110D31522AAD100DD843C /* UITableView+Addition.m */,
-				DF0110A61522AAD100DD843C /* Image+Addition.h */,
-				DF0110A71522AAD100DD843C /* Image+Addition.m */,
-				DF0110A81522AAD100DD843C /* Image.h */,
-				DF0110A91522AAD100DD843C /* Image.m */,
-				DF0110AA1522AAD100DD843C /* ImageData.h */,
-				DF0110AB1522AAD100DD843C /* ImageData.m */,
-				DF0110AC1522AAD100DD843C /* imageFactory.h */,
-				DF0110AD1522AAD100DD843C /* imageFactory.m */,
+				DF6442701526EA1500433ED2 /* Image+Addition.h */,
+				DF6442711526EA1500433ED2 /* Image+Addition.m */,
+				DF6442741526EA7800433ED2 /* ImageFactory.h */,
+				DF6442751526EA7800433ED2 /* ImageFactory.m */,
 				DF0110CE1522AAD100DD843C /* UIImage+Addition.h */,
 				DF0110CF1522AAD100DD843C /* UIImage+Addition.m */,
 				DF0110D01522AAD100DD843C /* UIImageView+Addition.h */,
@@ -763,12 +846,12 @@
 		DF189E841515C8D10046FCEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF64426E1526E87500433ED2 /* libsqlite3.dylib */,
 				DFDE4348151892B9002DAB40 /* MessageUI.framework */,
 				DFDD774A15161FB300F62582 /* QuartzCore.framework */,
 				DF189E851515C8D10046FCEE /* UIKit.framework */,
 				DF189E871515C8D10046FCEE /* Foundation.framework */,
 				DF189E891515C8D10046FCEE /* CoreGraphics.framework */,
-				DF189E8B1515C8D10046FCEE /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -776,7 +859,7 @@
 		DF189E8D1515C8D10046FCEE /* UBabyTime */ = {
 			isa = PBXGroup;
 			children = (
-				DF189E991515C8D10046FCEE /* UBabyTime.xcdatamodeld */,
+				DF64425C1526E7F800433ED2 /* ubabytime.sqlite */,
 				DF189E8E1515C8D10046FCEE /* Supporting Files */,
 			);
 			path = UBabyTime;
@@ -868,6 +951,55 @@
 			name = WebController;
 			sourceTree = "<group>";
 		};
+		DF6442351526DF1C00433ED2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF64426A1526E82700433ED2 /* User.h */,
+				DF64426B1526E82700433ED2 /* User.m */,
+				DF6442661526E82600433ED2 /* PregnacyPeriod.h */,
+				DF6442671526E82600433ED2 /* PregnacyPeriod.m */,
+				DF6442621526E82600433ED2 /* PregnacyWeeklyTips.h */,
+				DF6442631526E82600433ED2 /* PregnacyWeeklyTips.m */,
+				DF64425E1526E81100433ED2 /* PregnacyDaliyTips.h */,
+				DF64425F1526E81100433ED2 /* PregnacyDaliyTips.m */,
+				DF0110A81522AAD100DD843C /* Image.h */,
+				DF0110A91522AAD100DD843C /* Image.m */,
+				DF0110AA1522AAD100DD843C /* ImageData.h */,
+				DF0110AB1522AAD100DD843C /* ImageData.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		DF6442431526E4D100433ED2 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				DF6442481526E50C00433ED2 /* FMDatabase.h */,
+				DF6442491526E50C00433ED2 /* FMDatabase.m */,
+				DF64424A1526E50C00433ED2 /* FMDatabaseAdditions.h */,
+				DF64424B1526E50C00433ED2 /* FMDatabaseAdditions.m */,
+				DF64424C1526E50C00433ED2 /* FMDatabasePool.h */,
+				DF64424D1526E50C00433ED2 /* FMDatabasePool.m */,
+				DF64424E1526E50C00433ED2 /* FMDatabaseQueue.h */,
+				DF64424F1526E50C00433ED2 /* FMDatabaseQueue.m */,
+				DF6442501526E50C00433ED2 /* FMResultSet.h */,
+				DF6442511526E50C00433ED2 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+		DF6442781526EEDC00433ED2 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DF6442791526EF2900433ED2 /* CalendarView.h */,
+				DF64427A1526EF2900433ED2 /* CalendarView.m */,
+				DF64427D1526EF4A00433ED2 /* CalendarView.xib */,
+				DF43118F152809F10068B688 /* CalendarViewController.h */,
+				DF431190152809F10068B688 /* CalendarViewController.m */,
+				DF43119315281C9B0068B688 /* CalendarViewController.xib */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
 		DFDD774215161F9400F62582 /* QuadCurveMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -882,6 +1014,23 @@
 		DFDD77691516204C00F62582 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DF431185152809350068B688 /* article_special_bg_1.png */,
+				DF431186152809360068B688 /* article_special_bg_2.png */,
+				DF431187152809380068B688 /* article_special_bg_3.png */,
+				DF431188152809390068B688 /* article_special_bg_4.png */,
+				DF4311891528093B0068B688 /* article_special_bg_5.png */,
+				DF43117F152807CF0068B688 /* article_title_bgline.png */,
+				DF431180152807D00068B688 /* article_title_line.png */,
+				DF431181152807D10068B688 /* article_title_line@2x.png */,
+				DF43116C1528070E0068B688 /* eventplaceholder.png */,
+				DF43116D1528070F0068B688 /* eventplaceholder@2x.png */,
+				DF43116E152807100068B688 /* events.png */,
+				DF43116F152807110068B688 /* events@2x.png */,
+				DF431170152807120068B688 /* eventsButton.png */,
+				DF431171152807130068B688 /* eventsButton@2x.png */,
+				DF431172152807130068B688 /* eventsLarge.png */,
+				DF431173152807140068B688 /* eventsLarge@2x.png */,
+				DF431174152807150068B688 /* eventsMedium.png */,
 				DF754402152403F8003EBD5F /* feed-cover-background.png */,
 				DF01114C1522F9C900DD843C /* blackArrow.png */,
 				DF01114D1522F9C900DD843C /* blackArrow@2x.png */,
@@ -1039,6 +1188,19 @@
 				DF183A8415231147008B8D2F /* QADetailViewController.h in Headers */,
 				DFEC2122152341C400753CC1 /* SearchViewController.h in Headers */,
 				DF7543FD152402B2003EBD5F /* SearchTopTenViewController.h in Headers */,
+				DF6442521526E50C00433ED2 /* FMDatabase.h in Headers */,
+				DF6442541526E50C00433ED2 /* FMDatabaseAdditions.h in Headers */,
+				DF6442561526E50C00433ED2 /* FMDatabasePool.h in Headers */,
+				DF6442581526E50C00433ED2 /* FMDatabaseQueue.h in Headers */,
+				DF64425A1526E50C00433ED2 /* FMResultSet.h in Headers */,
+				DF6442601526E81100433ED2 /* PregnacyDaliyTips.h in Headers */,
+				DF6442641526E82600433ED2 /* PregnacyWeeklyTips.h in Headers */,
+				DF6442681526E82600433ED2 /* PregnacyPeriod.h in Headers */,
+				DF64426C1526E82700433ED2 /* User.h in Headers */,
+				DF6442721526EA1500433ED2 /* Image+Addition.h in Headers */,
+				DF6442761526EA7800433ED2 /* ImageFactory.h in Headers */,
+				DF64427B1526EF2900433ED2 /* CalendarView.h in Headers */,
+				DF431191152809F10068B688 /* CalendarViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1240,6 +1402,26 @@
 				DF01115B1522F9CA00DD843C /* whiteArrow@2x.png in Resources */,
 				DF183A8615231147008B8D2F /* QADetailViewController.xib in Resources */,
 				DF754404152403F8003EBD5F /* feed-cover-background.png in Resources */,
+				DF64425D1526E7F800433ED2 /* ubabytime.sqlite in Resources */,
+				DF64427E1526EF4A00433ED2 /* CalendarView.xib in Resources */,
+				DF431175152807150068B688 /* eventplaceholder.png in Resources */,
+				DF431176152807150068B688 /* eventplaceholder@2x.png in Resources */,
+				DF431177152807150068B688 /* events.png in Resources */,
+				DF431178152807150068B688 /* events@2x.png in Resources */,
+				DF431179152807150068B688 /* eventsButton.png in Resources */,
+				DF43117A152807150068B688 /* eventsButton@2x.png in Resources */,
+				DF43117B152807150068B688 /* eventsLarge.png in Resources */,
+				DF43117C152807150068B688 /* eventsLarge@2x.png in Resources */,
+				DF43117D152807150068B688 /* eventsMedium.png in Resources */,
+				DF431182152807D30068B688 /* article_title_bgline.png in Resources */,
+				DF431183152807D30068B688 /* article_title_line.png in Resources */,
+				DF431184152807D30068B688 /* article_title_line@2x.png in Resources */,
+				DF43118A1528093C0068B688 /* article_special_bg_1.png in Resources */,
+				DF43118B1528093C0068B688 /* article_special_bg_2.png in Resources */,
+				DF43118C1528093C0068B688 /* article_special_bg_3.png in Resources */,
+				DF43118D1528093C0068B688 /* article_special_bg_4.png in Resources */,
+				DF43118E1528093C0068B688 /* article_special_bg_5.png in Resources */,
+				DF43119415281C9B0068B688 /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,7 +1450,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF189E941515C8D10046FCEE /* main.m in Sources */,
-				DF189E9B1515C8D10046FCEE /* UBabyTime.xcdatamodeld in Sources */,
 				DF189ED21515C91D0046FCEE /* NICommonMetrics.m in Sources */,
 				DF189ED31515C91D0046FCEE /* NIDataStructures.m in Sources */,
 				DF189ED41515C91D0046FCEE /* NIDebuggingTools.m in Sources */,
@@ -1304,10 +1485,8 @@
 				DF0110E41522AAD100DD843C /* CoverPagingScrollView.m in Sources */,
 				DF0110E51522AAD100DD843C /* CoverView.m in Sources */,
 				DF0110E61522AAD100DD843C /* CoverViewController.m in Sources */,
-				DF0110E91522AAD100DD843C /* Image+Addition.m in Sources */,
 				DF0110EA1522AAD100DD843C /* Image.m in Sources */,
 				DF0110EB1522AAD100DD843C /* ImageData.m in Sources */,
-				DF0110EC1522AAD100DD843C /* imageFactory.m in Sources */,
 				DF0110ED1522AAD100DD843C /* LabelBarViewController.m in Sources */,
 				DF0110EE1522AAD100DD843C /* LabelConverter.m in Sources */,
 				DF0110EF1522AAD100DD843C /* LabelPageViewController.m in Sources */,
@@ -1330,6 +1509,19 @@
 				DF183A8515231147008B8D2F /* QADetailViewController.m in Sources */,
 				DFEC2123152341C400753CC1 /* SearchViewController.m in Sources */,
 				DF7543FE152402B2003EBD5F /* SearchTopTenViewController.m in Sources */,
+				DF6442531526E50C00433ED2 /* FMDatabase.m in Sources */,
+				DF6442551526E50C00433ED2 /* FMDatabaseAdditions.m in Sources */,
+				DF6442571526E50C00433ED2 /* FMDatabasePool.m in Sources */,
+				DF6442591526E50C00433ED2 /* FMDatabaseQueue.m in Sources */,
+				DF64425B1526E50C00433ED2 /* FMResultSet.m in Sources */,
+				DF6442611526E81100433ED2 /* PregnacyDaliyTips.m in Sources */,
+				DF6442651526E82600433ED2 /* PregnacyWeeklyTips.m in Sources */,
+				DF6442691526E82600433ED2 /* PregnacyPeriod.m in Sources */,
+				DF64426D1526E82700433ED2 /* User.m in Sources */,
+				DF6442731526EA1500433ED2 /* Image+Addition.m in Sources */,
+				DF6442771526EA7800433ED2 /* ImageFactory.m in Sources */,
+				DF64427C1526EF2900433ED2 /* CalendarView.m in Sources */,
+				DF431192152809F10068B688 /* CalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1448,19 +1640,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DF189E991515C8D10046FCEE /* UBabyTime.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DF189E9A1515C8D10046FCEE /* UBabyTime.xcdatamodel */,
-			);
-			currentVersion = DF189E9A1515C8D10046FCEE /* UBabyTime.xcdatamodel */;
-			path = UBabyTime.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DF189E781515C8D00046FCEE /* Project object */;
 }

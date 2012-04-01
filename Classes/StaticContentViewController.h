@@ -15,6 +15,7 @@
 #import "SearchViewController.h"
 #import "SearchTopTenViewController.h"
 #import "QADetailViewController.h"
+#import "CalendarViewController.h"
 @protocol StaticContentViewControllerDelegate;
 
 @interface StaticContentViewController : UIViewController

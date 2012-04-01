@@ -11,7 +11,7 @@
 
 @class ImageData;
 
-@interface Image : NSManagedObject
+@interface Image : NSObject
 
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSDate * updateDate;

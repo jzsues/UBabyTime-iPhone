@@ -10,7 +10,7 @@
 
 @interface SearchTopTenViewController : UIViewController
 {
-    NSMutableArray *_topLabel;
+    NSMutableArray *_topLabels;
 }
 
 @property (nonatomic,retain)UIScrollView *scrollView;

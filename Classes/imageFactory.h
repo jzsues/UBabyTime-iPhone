@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface imageFactory : NSObject
+@interface ImageFactory : NSObject
 
 {
-    imageFactory* _imageFactory;
+    ImageFactory* _imageFactory;
     NSMutableDictionary* _image;
 }
 -(id)init;
-+(imageFactory*)SharedImageFactory;
++(ImageFactory*)SharedImageFactory;
 -(UIImage*)GetImage:(NSString*)url;
 @end

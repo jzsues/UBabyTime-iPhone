@@ -44,7 +44,7 @@
 -(id)findContentViewByLabelIdentifier:(NSString*)labelIdentifier{
     if([labelIdentifier isEqualToString:kTodayTips]){
         if(!_todayTipsNavigationController){
-            CoverViewController *cvc = [[[CoverViewController alloc] init] autorelease];
+            CalendarViewController *cvc = [[[CalendarViewController alloc] init] autorelease];
             _todayTipsNavigationController = [[UINavigationController alloc] initWithRootViewController:cvc];
             _todayTipsNavigationController.navigationBarHidden = YES;
             _todayTipsNavigationController.view.frame = CGRectMake(CONTENT_VIEW_ORIGIN_X, CONTENT_VIEW_ORIGIN_Y, CONTENT_VIEW_WIDTH, CONTENT_VIEW_HEIGHT);

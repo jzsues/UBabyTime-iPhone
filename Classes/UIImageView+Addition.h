@@ -23,8 +23,7 @@
              completion:(void (^)(void))completion;
 
 - (void)loadImageFromURL:(NSString *)urlString 
-              completion:(void (^)())completion 
-          cacheInContext:(NSManagedObjectContext *)context;
+              completion:(void (^)())completion;
 
 - (void)centerizeWithSideLength:(CGFloat)length;
 

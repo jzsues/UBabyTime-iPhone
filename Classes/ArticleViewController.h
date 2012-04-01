@@ -12,7 +12,7 @@
 @protocol ArticleViewControllerDelegate 
 
 -(void)backButtonClick:(id)sender;
-
+    
 @end
 
 @interface ArticleViewController : UIViewController
@@ -24,6 +24,7 @@
 @property (nonatomic,retain) IBOutlet UIButton *favourButton;
 @property (nonatomic,retain) IBOutlet UIButton *commentButton;
 @property (nonatomic,retain) IBOutlet UIButton *otherButton;
+@property (nonatomic,retain) ArticleView *articleView;
 
 -(IBAction)backButtonClick:(id)sender;
 

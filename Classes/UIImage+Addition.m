@@ -69,7 +69,6 @@ typedef enum {
 
 + (void)loadImageFromURL:(NSString *)urlString 
               completion:(void (^)())completion 
-          cacheInContext:(NSManagedObjectContext *)context
 {
     
 	
@@ -84,8 +83,8 @@ typedef enum {
         }
         //    UIImage *img = [UIImage imageWithData:imageData];
         dispatch_async(dispatch_get_main_queue(), ^{
-            if([Image imageWithURL:urlString inManagedObjectContext:context] == nil) {
-                [Image insertImage:imageData withURL:urlString inManagedObjectContext:context];
+            if([Image imageWithURL:urlString] == nil) {
+                [Image insertImage:imageData withURL:urlString];
                 //NSLog(@"cache image url:%@", urlString);
                 //  self.image = img;
                 if (completion) {
